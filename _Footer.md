@@ -1,1 +1,1 @@
-© 2020 Steven M Cohn
+© 2020 Steven M Cohn. All rights reserved.
