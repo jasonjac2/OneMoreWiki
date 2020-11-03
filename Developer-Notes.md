@@ -153,7 +153,7 @@ what colors you apply to the XML, OneNote will increase the brightness if the pa
 considering "dark". You can, however, still use OneNote's font color button and it will happily
 apply any color your choose. Selfish OneNote. Selflish.
 
-> Color adjustments:
-> https://stackoverflow.com/questions/801406/c-create-a-lighter-darker-color-based-on-a-system-color
+> Color adjustments:  
+> https://stackoverflow.com/questions/801406/c-create-a-lighter-darker-color-based-on-a-system-color  
 > https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.controlpaint.light?view=netcore-3.1
 
