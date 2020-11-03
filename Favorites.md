@@ -3,5 +3,5 @@ the most obvious feature missing is a Favorites menu. Well, you now have one wit
 Simply click *Add current page* to add a new favorite. Click the flyout menu to delete an
 indvidual favorites. Easy.
 
-> ![Favorites Menu](Screenshots/FavoritesMenu.png)
+> ![Favorites Menu](images/FavoritesMenu.png)
 
