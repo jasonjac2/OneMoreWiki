@@ -11,12 +11,12 @@ two or more lines compressed down to one line.
 
 ## Remove Paragraph Spacing
 Resets line spacing to zero between all paragraphs and headings
-> ![Favorites Menu](images/FavoritesMenu.png)
+> ![Favorites Menu](images/RemoveSpacing.png)
 
 ## Show/Hide Page Date and Time Stamps
 Toggles the page date and time stamps under the title on the current page or all pages in
 the current section
-> ![Favorites Menu](images/FavoritesMenu.png)
+> ![Favorites Menu](images/Dttm.png)
 
 ## Trim Whitespace
 Trims trailing whitespace from selected text or all text on the page
