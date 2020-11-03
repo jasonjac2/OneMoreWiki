@@ -18,6 +18,7 @@ Pastes rich text from the clipboard, preserving formatting and colors.
 
 ## Rotating Highlighter
 Uses a rotating array of colors to highlight selected text. Each time you select text and use this command, it will highlight the selected text using the next color in the array. Choose the color theme from the Settings dialog.
+> ![Rotating Highlighter](images/Rotating.png)
 
 ## Search and Replace
 Searches the current page for the specified phrase and replaces it with a new phrase. Use standard Regular Expression syntax for advanced searches.
