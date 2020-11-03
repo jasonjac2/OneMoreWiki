@@ -29,3 +29,17 @@ up to one of the first eight items in the list of tags; then you can use Ctrl-# 
 apply tags to the headings or paragraphs you want before using the Outline Formatting dialog.
 
 <img src="images/Indenting.png" width="400"/>
+
+## Number Sections
+Immediately numbers all sections in the current notebook using simple numerical sequences.
+Each section group is treated independently.
+
+To remove numbering from sections use the Remove Section Numbers command.
+
+## Number Pages
+Numbers pages using one of two different outline numbering schemes as shown in the 
+dialog:
+
+
+
+To remove numbering from pages use the Remove Page Numbering command.
