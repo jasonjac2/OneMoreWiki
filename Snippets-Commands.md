@@ -13,10 +13,10 @@ Generate a Table of Contents based on both standard headings and custom user-def
 where each line is hyperlinked to its heading and indented according to its heading level.
 Text colors are based on the page background color.
 
-**Table of Contents**  
-[Heading 1](#exampToc)  
-. . [Heading 2](#exampToc)  
-. . . . [Heading 3](#exampToc)
+> **Table of Contents**  
+> [Heading 1](#exampToc)  
+> . . [Heading 2](#exampToc)  
+> . . . . [Heading 3](#exampToc)
 
 <a name="expand"></a>
 ### Collapsable Sections
@@ -25,7 +25,7 @@ Insert a collapsable section at the current position on the page. This can be us
 secondary or sensitive information on your page. This snippet includes a single-cell table
 to which you can add content.
 
-![Collapsable Section](images/Expand.jpg)
+> ![Collapsable Section](images/Expand.jpg)
 
 
 <a name="exStatusLabels"></a>
