@@ -40,6 +40,6 @@ To remove numbering from sections use the Remove Section Numbers command.
 Numbers pages using one of two different outline numbering schemes as shown in the 
 dialog:
 
-
+> ![Page Numbering](images/PageNumbering.png)
 
 To remove numbering from pages use the Remove Page Numbering command.
