@@ -53,7 +53,7 @@ Insert a code box with heading and area for your code. Use the Paste Rich Text c
 to paste syntax-highlighted code directly from Visual Studio<sup>1</sup>.
 Text colors are based on the page background color.
 
-![Code Box](Images/CodeBox.jpg)
+![Code Box](images/CodeBox.jpg)
 
 <a name="calendar"></a>
 ### Calendar
