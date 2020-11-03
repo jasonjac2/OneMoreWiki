@@ -3,7 +3,7 @@ commands also have their own key bindings.
 
 | Category    | Command                       | Key Binding |
 | ----------- | ----------------------------- | ----------- |
-| Edit        | No Spell Check                | F4
+| Editing     | No Spell Check                | F4
 |             | Paste Rich Text               | Ctrl + Alt + V
 |             | Search and Move/Copy          | Alt + F
 |             | Search and Replace            | Ctrl + H
