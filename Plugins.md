@@ -1,6 +1,9 @@
 OneMore has a plugin facility that let you process a page using a program that you write.
 This provides a simple way to experiment with page adjustments; it is an experimental
-feature - see WARNING at bottom of this article!
+feature.
+
+> _NOTICE: I provide no guarantee, warranty, or promise that you won't screw it up and loose data! It's in your
+hands and if you mess up the XML and cause data loss, that's entirely on you. You've been warned._
 
 The workflow is very simple: 
 
@@ -28,6 +31,3 @@ If the plugin is written in PowerShell then specify the Plugin Command as powers
 line to specify the -file argument pointing to your plugin script as shown here.
 
 ![Plugin Dialog](images/PluginDialog.png)
-
-<span style="color:red;">_NOTICE: I provide no guarantee, warranty, or promise that you won't screw it up and loose data! It's in your
-hands and if you mess up the XML and cause data loss, that's entirely on you. You've been warned._</span>
