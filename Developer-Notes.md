@@ -56,7 +56,7 @@ Rebuild the Setup project and away you go!
 
 ### Option 2
 
-There is a PowerShell script named build.ps1 in the solution folder that can build both the 32-bit
+There is a PowerShell script named **build.ps1** in the solution folder that can build both the 32-bit
 and the 64-bit installers. Prior to running this script, you must first configure your machine by
 running the Microsoft tool:
 
