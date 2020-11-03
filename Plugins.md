@@ -5,6 +5,11 @@ feature.
 > _NOTICE: I provide no guarantee, warranty, or promise that you won't screw it up and loose data! It's in your
 hands and if you mess up the XML and cause data loss, that's entirely on you. You've been warned._
 
+Given a plugin written in PowerShell then specify the Plugin Command as powershell.exe and use the Arguments
+line to specify the -file argument pointing to your plugin script as shown here.
+
+> ![Plugin Dialog](images/PluginDialog.png)
+
 The workflow is very simple: 
 
 1. Create a plugin program that accepts one command line argument;
@@ -23,11 +28,4 @@ Any output that your plugin writes to stdout will be captured in the OneMore log
 Note, if you run the plugin and a Web browser is invoked (IE) showing the XML file contents then
 you probably forgot to specify the right arguments to powershell.exe or python.exe.
 
-The OneNote page schema is defined in the 0336.OneNoteApplication_2013.xsd file in the References folder of this repo.
-
-*Example*
-
-If the plugin is written in PowerShell then specify the Plugin Command as powershell.exe and use the Arguments
-line to specify the -file argument pointing to your plugin script as shown here.
-
-![Plugin Dialog](images/PluginDialog.png)
+The OneNote page schema is defined in the 0336.OneNoteApplication_2013.xsd file in the Properties folder of the project repo.
