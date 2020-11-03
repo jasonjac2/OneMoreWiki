@@ -50,7 +50,7 @@ change the bitness of the OneMore project itself; leave it as AnyCPU._
 Select the Setup project from the Visual Studio Solution Explorer and change the TargetPlatform
 property x64 as shown here:
 
-![TargetPlatform](../images/TargetPlatform.png)
+![TargetPlatform](images/TargetPlatform.png)
 
 Rebuild the Setup project and away you go!
 
