@@ -29,5 +29,5 @@ line to specify the -file argument pointing to your plugin script as shown here.
 
 ![Plugin Dialog](images/PluginDialog.png)
 
-<span style="color:red">_NOTICE: I provide no guarantee, warranty, or promise that you won't screw it up and loose data! It's in your
+<span style="color:red;">_NOTICE: I provide no guarantee, warranty, or promise that you won't screw it up and loose data! It's in your
 hands and if you mess up the XML and cause data loss, that's entirely on you. You've been warned._</span>
