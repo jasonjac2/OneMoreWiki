@@ -9,5 +9,5 @@ Ctrl+Alt+Shift + 1, Ctrl+Alt+Shift + 2, etc., through Ctrl+Alt+Shift + 9
 
 | Styles Gallery | Styles Editor |
 | -------------- | ------------- |
-| ![Styles](Screenshots/CustomStyles.png) | ![Styles Dialog](Screenshots/CustomStylesDialog.png) |
+| ![Styles](images/CustomStyles.png) | ![Styles Dialog](images/CustomStylesDialog.png) |
 
