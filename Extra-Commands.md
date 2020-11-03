@@ -1,5 +1,6 @@
 ## Add Icon to Page Title
-Adds a special icon or glyph to the page title which also appears in page hierarchy
+Chose from a selection of icons from the Segoe UI Emoji font to add to the page title;
+OneNote automatically displays that icon in the page navigator as well.
 
 > ![Title Icon Dialog](images/TItleIconsDialog.png)
 
@@ -33,7 +34,9 @@ Searches for keywords across pages and copies or moves selected pages (Alt + F) 
 > ![Search and Move](images/SearchAndMove.png)
 
 ## Sort
-Sorts pages, sections, or notebooks.
+Sorts pages, sections, or notebooks. Pages are sorted within the current section only,
+not recursively throughout the notebook. Sections are sorted throughout the current
+notebook recursively.
 
 > ![Sort](images/SortDialog.png)
 
