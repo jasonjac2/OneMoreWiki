@@ -3,8 +3,8 @@ convenient if you want complicated formulas and charts... and you have Excel ins
 if you don't?
 
 OneMore adds Excel-like formula functionality to native OneNote tables. Thanks to the work done
-by [Jonathan Wood](http://www.blackbeltcoder.com/Articles/algorithms/a-c-expression-evaluator)
-to create a fantastic expression parser and evaluator, you can now apply a formula to one or more
+by [Jonathan Wood](http://www.blackbeltcoder.com/Articles/algorithms/a-c-expression-evaluator),
+who created a fantastic expression parser and evaluator, you can apply a formula to one or more
 selected cells in a table. A formula can consist of basic mathematical operators, parenthesis,
 and most math functions such as abs, sum, average, sin, etc.
 
