@@ -2,15 +2,22 @@
 Removes all author information from the current page
 
 ## Remove Citations
-Removes citations that OneNote auto-generates when you paste into OneNote from Web pages, for example `From <https://www....`
+Removes citations that OneNote auto-generates when you paste screen clipping and parts 
+of Web pages into OneNote, for example `From <https://www....`
 
-* Remove pasted screen clipping and URL citation lines from page
+## Remove Empty Paragraph and Headers
+Removes empty headings with no content and "extra" empty lines between paragraphs, e.g.,
+two or more lines compressed down to one line.
 
-* Remove empty headers and "extra" empty lines between paragraphs
-
-* Remove spacing between paragraphs and headings
+## Remove Paragraph Spacing
+Resets line spacing to zero between all paragraphs and headings
 > ![Favorites Menu](images/FavoritesMenu.png)
 
-* Show/Hide the page date and time stamps under the title on page or all pages in section
+## Show/Hide Page Date and Time Stamps
+Toggles the page date and time stamps under the title on the current page or all pages in
+the current section
 > ![Favorites Menu](images/FavoritesMenu.png)
-* Trim trailing whitespace from selected text
+
+## Trim Whitespace
+Trims trailing whitespace from selected text or all text on the page
+
