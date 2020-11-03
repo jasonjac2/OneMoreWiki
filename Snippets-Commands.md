@@ -25,7 +25,7 @@ Text colors are based on the page background color.
 > . . [Heading 2](#exampToc)  
 > . . . . [Heading 3](#exampToc)
 
-### Calendar
+## Calendar
 Inserts a monthly calendar for a selected month in either large or small format. The small
 format is good for a quick look at a month. The large format is good for entering brief
 daily notes.
