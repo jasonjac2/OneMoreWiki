@@ -27,7 +27,6 @@ to which you can add content.
 
 > ![Collapsable Section](images/Expand.jpg)
 
-
 <a name="exStatusLabels"></a>
 ### Status Labels
 
@@ -35,7 +34,7 @@ Insert colored status labels similar to the Status macros found in Confluence. T
 are not as smart as the Confluence macros but instead are just simple text with a highlight
 background that are fully editable inline.
 
-![Status Labels](images/StatusLabels.jpg)
+> ![Status Labels](images/StatusLabels.jpg)
 
 <a name="exInfoBoxes"></a>
 ### Information and Warning Boxes
@@ -44,7 +43,7 @@ Insert an information box or warning box with fully customizable headers and con
 These snippets are actually just nested tables. Text colors are based on the [page background
 color](#dark).
 
-![Info Box  es](images/InfoBoxes.jpg)
+> ![Info Box  es](images/InfoBoxes.jpg)
 
 <a name="exCodeBox"></a>
 ### Code Box
@@ -53,7 +52,7 @@ Insert a code box with heading and area for your code. Use the Paste Rich Text c
 to paste syntax-highlighted code directly from Visual Studio<sup>1</sup>.
 Text colors are based on the page background color.
 
-![Code Box](images/CodeBox.jpg)
+> ![Code Box](images/CodeBox.jpg)
 
 <a name="calendar"></a>
 ### Calendar
@@ -62,4 +61,4 @@ Insert a monthly calendar for a selected month in either large or small format. 
 format is good for a quick look at a month. The large format is good for entering brief
 daily notes.
 
-![Insert Calendar](images/Calendar.jpg)
+> ![Insert Calendar](images/Calendar.jpg)
