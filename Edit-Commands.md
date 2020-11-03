@@ -21,3 +21,4 @@ Uses a rotating array of colors to highlight selected text. Each time you select
 
 ## Search and Replace
 Searches the current page for the specified phrase and replaces it with a new phrase. Use standard Regular Expression syntax for advanced searches.
+> ![Search and Replace dialog](images/SearchAndReplace.png)
