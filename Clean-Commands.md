@@ -2,7 +2,7 @@
 Removes all author information from the current page
 
 ## Remove Citations
-Removes citations that OneNote auto-generates when you paste into OneNote from Web pages, for example "From <https://www...."
+Removes citations that OneNote auto-generates when you paste into OneNote from Web pages, for example `From <https://www....`
 
 * Remove pasted screen clipping and URL citation lines from page
 
