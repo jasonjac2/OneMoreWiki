@@ -13,9 +13,9 @@ Generate a Table of Contents based on both standard headings and custom user-def
 where each line is hyperlinked to its heading and indented according to its heading level.
 Text colors are based on the page background color.
 
-**Table of Contents**</br>
-[Heading 1](#exampToc)</br>
-. . [Heading 2](#exampToc)</br>
+**Table of Contents**  
+[Heading 1](#exampToc)  
+. . [Heading 2](#exampToc)  
 . . . . [Heading 3](#exampToc)
 
 <a name="expand"></a>
