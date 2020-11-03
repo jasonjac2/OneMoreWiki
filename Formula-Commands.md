@@ -8,6 +8,10 @@ to create a fantastic expression parser and evaluator, you can now apply a formu
 selected cells in a table. A formula can consist of basic mathematical operators, parenthesis,
 and most math functions such as abs, sum, average, sin, etc.
 
+| Formula Menu | Formula Dialog |
+| ------------ | -------------- |
+| ![Formula Menu](images/FormulaMenu.png) | ![Formula Dialog](images/FormulaDialog.png) |
+
 1. Select the cell or cells into which you want to add a formula; they must be linear and
    contiguous, meaning in the same row or in the same column.
 1. Select the Add Formula command. The Formula dialog is displayed showing the names of the
@@ -35,7 +39,3 @@ you put them.
 
 The Delete command will remove a formula from the selected cell(s) but retain the values displayed
 in those cell.
-
-| Formula Menu | Formula Dialog |
-| ------------ | -------------- |
-| ![Formula Menu](images/FormulaMenu.png) | ![Formula Dialog](images/FormulaDialog.png) |
