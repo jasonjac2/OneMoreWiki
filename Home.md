@@ -7,6 +7,8 @@ OneMore is an add-in for Microsoft OneNote 2019 that adds powerful yet simple an
 * Add [formulas](../../wiki/Formula-Commands) to table cell using Excel-like expressions
 * [Customize the context menu](../../wiki/Settings) to add OneMore commands or a a custom search engine
 
+*Want more from OneMore? OneMore has more...* Click the pages on the right to discover all the gritty details ---->
+
 ## Key Shortcut Bindings
 While all commands can be accessed from the OneMore ribbon group menus, some
 commands also have their own key bindings.
