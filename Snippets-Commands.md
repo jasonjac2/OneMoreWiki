@@ -25,7 +25,7 @@ Insert a collapsable section at the current position on the page. This can be us
 secondary or sensitive information on your page. This snippet includes a single-cell table
 to which you can add content.
 
-![Collapsable Section](Screenshots/Expand.jpg)
+![Collapsable Section](images/Expand.jpg)
 
 
 <a name="exStatusLabels"></a>
@@ -35,7 +35,7 @@ Insert colored status labels similar to the Status macros found in Confluence. T
 are not as smart as the Confluence macros but instead are just simple text with a highlight
 background that are fully editable inline.
 
-![Status Labels](Screenshots/StatusLabels.jpg)
+![Status Labels](images/StatusLabels.jpg)
 
 <a name="exInfoBoxes"></a>
 ### Information and Warning Boxes
@@ -44,7 +44,7 @@ Insert an information box or warning box with fully customizable headers and con
 These snippets are actually just nested tables. Text colors are based on the [page background
 color](#dark).
 
-![Info Box  es](Screenshots/InfoBoxes.jpg)
+![Info Box  es](images/InfoBoxes.jpg)
 
 <a name="exCodeBox"></a>
 ### Code Box
@@ -62,4 +62,4 @@ Insert a monthly calendar for a selected month in either large or small format. 
 format is good for a quick look at a month. The large format is good for entering brief
 daily notes.
 
-![Insert Calendar](Screenshots/Calendar.jpg)
+![Insert Calendar](images/Calendar.jpg)
