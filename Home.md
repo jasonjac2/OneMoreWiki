@@ -1,6 +1,4 @@
-Welcome to the OneMore wiki!
-
-Work in progress! Meanwhile, click on the pages over there on the right ---->
+* Add [formulas](../../wiki/Formula-Commands) to table cell using Excel-like expressions
 
 ## Key Shortcut Bindings
 While all commands can be accessed from the OneMore ribbon group menus, some
