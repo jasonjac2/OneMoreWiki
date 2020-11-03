@@ -1,6 +1,8 @@
 ## Add Icon to Page Title
 Adds a special icon or glyph to the page title which also appears in page hierarchy
 
+> ![Title Icon Dialog](images/TItleIconsDialog.png)
+
 ## Collapse Pages
 Collapses the page hierarchy to see only top-level pages.
 
