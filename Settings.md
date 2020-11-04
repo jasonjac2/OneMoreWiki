@@ -10,16 +10,22 @@ The rotating highlighter uses an array of colors to highlight selected text. Eac
 
 > ![Highlighter Options](images/HighlighterSheet.png)
 
+_Note that OneNote must be restarted if highlighter options are changed._
+
 ## Ribbon Bar Options
 While all commands can be accessed from the More drop-down menu, some common commands can be added to the
 ribbon bar for quick single-click access.
 
 > ![Ribbon Bar Options](images/RibbonSheet.png)
 
+_Note that OneNote must be restarted if ribbon bar options are changed._
+
 ## Search Engine Options
 You can define one or more engines to be shown on the page context menu.
 
 > ![Search Engine Options](images/SearchEngineSheet.png)
+
+_Note that OneNote must be restarted if search engine options are changed._
 
 Each engine needs a unique name and a URL pattern. The URL pattern must contains the phrase "{0}" which will be replaced with a selected word or phrase. Some common search engine URL patterns are shown here:
 
