@@ -3,6 +3,8 @@ The Settings dialog customizes aspects of the OneMore experience by letting you 
 ## Context Menu Options
 Many of the OneMore commands can be added to the context menu that appears when you right-click on the body of a page.
 
+Note that if you choose one of the "menu" options such as "Edit Menu" then that will be added as a fly-out menu and include all Edit Menu items. But if you choose one of the sub-items, such as "To lowercase" then that item will be added as a top-level context menu item. If you happen to select both then both will be shown, possibly duplicating items.
+
 > ![Context Menu Options](images/ContextMenuSheet.png)
 
 ## Rotating Highlighter Options
