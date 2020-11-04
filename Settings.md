@@ -27,6 +27,7 @@ You can define one or more engines to be shown on the page context menu.
 
 _Note that OneNote must be restarted if search engine options are changed._
 
+### Search Engine Examples
 Each engine needs a unique name and a URL pattern. The URL pattern must contains the phrase "{0}" which will be replaced with a selected word or phrase. Some common search engine URL patterns are shown here:
 
 | Name | URL Pattern |
@@ -41,11 +42,4 @@ Each engine needs a unique name and a URL pattern. The URL pattern must contains
 If you define one engine then that is shown directly in the page context menu. If you define
 more than one engine, then a submenu is added to the context menu with a list of engines that
 you define.
-
-_Note that you need to restart OneNote when modifying the search engine list.
-Sadly, there is no way to dynamically reload the context menu without restarting._
-
-Select a phrase, or place the text cursor in the middle of a word, and choose your search
-engine. Your default Web browser is opened, search for your selecte content using the selected
-engine.
 
