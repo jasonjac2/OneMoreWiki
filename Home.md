@@ -11,7 +11,7 @@ OneMore is an add-in for Microsoft OneNote 2019 that adds powerful yet simple an
 
 ![Screenshot](images/Screenshot.png)
 
-<a name="keys"/>
+<a name="keys"></a>
 ## Key Shortcut Bindings
 While all commands can be accessed from the OneMore ribbon group menus, some
 commands also have their own key bindings.
