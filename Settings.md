@@ -17,11 +17,11 @@ ribbon bar for quick single-click access.
 > ![Ribbon Bar Options](images/RibbonSheet.png)
 
 ## Search Engine Options
-From the Extras menu, open the Edit Search Engines dialog. You can define one or more engines.
-Each engine needs a unique name and a URL pattern. The URL pattern must contains the phrase
-"{0}" which will be replaced with a selected word or phrase.
+You can define one or more engines to be shown on the page context menu.
 
-Some common search engine URL patterns are shown here:
+> ![Search Engine Options](images/SearchEngineSheet.png)
+
+Each engine needs a unique name and a URL pattern. The URL pattern must contains the phrase "{0}" which will be replaced with a selected word or phrase. Some common search engine URL patterns are shown here:
 
 | Name | URL Pattern |
 | ---- | ----------- |
