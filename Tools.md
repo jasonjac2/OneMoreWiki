@@ -1,3 +1,12 @@
+## Import
+Import either Word or PowerPoint, either appending content to the current page or into a new page. 
+Additionally, for PowerPoint, each slide can be imported into its own page so you could use OneNote as a PowerPoint presenter by entering full screen mode and using Ctrl-PgDn to move to the next slide.
+
+> ![Import Dialog](images/Import.png)
+
+## Export
+Export the current page as HTML, Word, PDF, or raw native OneNote XML.
+ 
 ## Plugins
 OneMore has a plugin facility that let you process a page using a program that you write.
 This provides a simple way to experiment with page adjustments; it is an experimental
