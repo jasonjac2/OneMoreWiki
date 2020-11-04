@@ -1,8 +1,11 @@
-## Context Menu and Custom Search Engines
+The Settings dialog customizes aspects of the OneMore experience by letting you select options for specific commands.
 
-OneMore adds commands to the context menu that appears when you right-click on the body of a 
-page. Additionally, you can define your own custom search engines to add to the context menu.
+## Context Menu Options
+Many of the OneMore commands can be added to the context menu that appears when you right-click on the body of a page.
 
+> [Context Menu Options](images/ContextSheet.png)
+
+## Search Engine Options
 From the Extras menu, open the Edit Search Engines dialog. You can define one or more engines.
 Each engine needs a unique name and a URL pattern. The URL pattern must contains the phrase
 "{0}" which will be replaced with a selected word or phrase.
