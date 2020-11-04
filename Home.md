@@ -16,7 +16,7 @@ OneMore is an add-in for Microsoft OneNote 2019 that adds powerful yet simple an
 * Microsoft Visual Studio 2019, C# 7
 * Microsoft Visual Studio 2019 Installer Projects extension
 * .NET Framework 4.8
-* Microsoft OneNote 2016 32-bit or 64-bit
+* Microsoft OneNote 2016 32-bit or 64-bit (should also work with OneNote 2013)
 
 Tested recently with Windows 10 2004 (19041.450), VS2019, and OneNote 2019/O365
 
