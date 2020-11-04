@@ -3,7 +3,18 @@ The Settings dialog customizes aspects of the OneMore experience by letting you 
 ## Context Menu Options
 Many of the OneMore commands can be added to the context menu that appears when you right-click on the body of a page.
 
-> ![Context Menu Options](images/ContextSheet.png)
+> ![Context Menu Options](images/ContextMenuSheet.png)
+
+## Rotating Highlighter Options
+The rotating highlighter uses an array of colors to highlight selected text. Each time you select text and use this command, it will highlight the selected text using the next color in the array. The highlighter options let you choose which color theme to use
+
+> ![Highlighter Options](images/HighlighterSheet.png)
+
+## Ribbon Bar Options
+While all commands can be accessed from the More drop-down menu, some common commands can be added to the
+ribbon bar for quick single-click access.
+
+> ![Ribbon Bar Options](images/RibbonSheet.png)
 
 ## Search Engine Options
 From the Extras menu, open the Edit Search Engines dialog. You can define one or more engines.
