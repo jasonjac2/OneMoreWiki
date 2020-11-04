@@ -11,6 +11,22 @@ OneMore is an add-in for Microsoft OneNote 2019 that adds powerful yet simple an
 
 ![Screenshot](images/Screenshot.png)
 
+### Minimum Prerequisites
+* Developed for Windows 10
+* Microsoft Visual Studio 2019, C# 7
+* Microsoft Visual Studio 2019 Installer Projects extension
+* .NET Framework 4.8
+* Microsoft OneNote 2016 32-bit or 64-bit
+
+Tested recently with Windows 10 2004 (19041.450), VS2019, and OneNote 2019/O365
+
+### How to Install
+1. Close OneNote if it is currently running
+2. Download the [latest installer from here](https://github.com/stevencohn/OneMore/releases/latest)
+3. Right-click the downloaded installer msi and choose Properties, then tick the Unblock box and click OK
+4. Run the installer
+5. Run OneNote and enjoy
+
 <a name="keys"></a>
 ## Key Shortcut Bindings
 While all commands can be accessed from the OneMore ribbon group menus, some
