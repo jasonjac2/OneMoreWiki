@@ -30,7 +30,7 @@ commands also have their own key bindings.
 |             | Remove footnote               | Ctrl + Shift + F
 | [Formulas](../wiki/Formula-Commands) | Add/Edit formula | F5
 |             | Recalculate formulas          | Shift + F5
-| [Snippets](../wiki/Snippet-Commands) | Insert Code Block | F6
+| [Snippets](../wiki/Snippets-Commands) | Insert Code Block | F6
 |             | Insert horizontal line        | Shift + Alt + Minus
 |             | Insert double horizontal line | Shift + Alt + Equals
 | [Tools](../wiki/Tools) | Show XML                      | Ctrl + Shift + Alt + X
