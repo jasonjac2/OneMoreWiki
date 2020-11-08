@@ -12,6 +12,15 @@ Converts selected text to a table. Text must be delimited by a comma, space, or 
 
 > ![Text To Table](images/TextToTable.png)
 
+## Insert Table Cells
+Adds the ability to insert cells into a table, shifting existing content down or to the right.
+This is similar to the Excel functionality with one enhancement - if you select a rectangular
+region of cells then it will shift just those cells, possibly overwriting other cells. If you
+select cells from one column or cells from one row then it will insert cells above or to the left
+and add rows or columns as needed to make room for the new cells.
+
+> ![Insert Table Cells](images/InsertCellsDialog.png)
+
 ## Insert Pronunciation
 Inserts the "ruby text" pronunciation of selected words. This uses an online service that supports over a dozen languages.
 
