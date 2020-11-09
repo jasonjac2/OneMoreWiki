@@ -21,6 +21,9 @@ and add rows or columns as needed to make room for the new cells.
 
 > ![Insert Table Cells](images/InsertCellsDialog.png)
 
+_Note that if you move cells with formulas, the cell references in those formulas are not updated
+automatically by this command; you'll need to adjust those manually._
+
 ## Insert Pronunciation
 Inserts the "ruby text" pronunciation of selected words. This uses an online service that supports over a dozen languages.
 
