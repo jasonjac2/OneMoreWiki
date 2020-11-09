@@ -39,6 +39,7 @@ Each engine needs a unique name and a URL pattern. The URL pattern must contains
 | Google Books   | https://www.google.com/search?q={0} |
 | Google Scholar | https://scholar.google.com/scholar?q={0} |
 | Duck Duck Go   | https://duckduckgo.com/?q={0} |
+| MacMillan      | https://www.macmillandictionary.com/dictionary/british/search?q={0} |
 | WikipediA      | https://en.wikipedia.org/wiki/{0} |
 
 If you define one engine then that is shown directly in the page context menu. If you define
