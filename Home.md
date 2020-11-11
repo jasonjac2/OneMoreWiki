@@ -3,9 +3,9 @@ OneMore is an add-in for Microsoft OneNote 2019 that adds powerful yet simple an
 * Access all features from the OneMore group menus added to the Home ribbon
 * Access some "key" features using [keyboard shortcuts](#keys) (see what I did there?)
 * Create/edit/apply [custom styles](Custom-Styles) with advanced options
-* Manage menu of [Favorites](../../wiki/Favorites) for one-click link to your most referenced pages
-* Add [formulas](../../wiki/Formula-Commands) to table cell using Excel-like expressions
-* [Customize the context menu](../../wiki/Settings) to add OneMore commands or a a custom search engine
+* Manage menu of [Favorites](Favorites) for one-click link to your most referenced pages
+* Add [formulas](Formula-Commands) to table cell using Excel-like expressions
+* [Customize the context menu](Settings) to add OneMore commands or a a custom search engine
 
 *Want more from OneMore? OneMore has more...* Click the pages on the right to discover all the gritty details ---->
 
