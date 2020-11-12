@@ -43,7 +43,7 @@ Text colors are based on the page background color.
 when using the Paste Rich Text command (Ctrl+Alt+V) then look at the VS Tools... Options...
 Text Editor... Advanced, and tick the box *Copy rich text on copy/cut*.
 
-## Infor Block and Warning Block
+## Info Block and Warning Block
 Inserts an information box or warning box with fully customizable headers and content.
 These snippets are actually just nested tables. Text colors are based on the [page background
 color](#dark).
