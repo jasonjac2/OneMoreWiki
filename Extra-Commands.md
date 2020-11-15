@@ -52,5 +52,10 @@ notebook recursively.
 
 > ![Sort](images/SortDialog.png)
 
+## Split Page
+Splits the current page at each Heading1 or page links. Also, these can be filtered by an optional tag. 
+
+This will create new pages in the current section. If splitting on page links, if the linked pages exists, it must exist in the current section or it will not be found and a new page will be created in the current section; if it is found then the content will be appended to that page. 
+
 ## Strikethrough Completed To Do Tags
 Toggles strikethrough text next to all completed/incompleted tags
