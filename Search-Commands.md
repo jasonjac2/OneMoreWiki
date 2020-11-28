@@ -22,6 +22,10 @@ Searches pages for the specified page tags. Tags must be separated with a comma.
 
 Searching is done by applying _one or more of the included tags but none of the excluded tags_.
 
+When results are shown, click on each page to force OneNote to navigate to and display that page. 
+
+Select individual pages by ticking the checkbox next to each page. Then create an index page of the selected pages or choose to copy or move those pages to another notebook or another section.
+
 > ![Tagged](images/TaggedDialog.png)
 
 
