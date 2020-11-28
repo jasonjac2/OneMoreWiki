@@ -36,8 +36,6 @@ commands also have their own key bindings.
 | ----------- | ----------------------------- | ----------- |
 | [Editing](../wiki/Edit-Commands) | No Spell Check | F4
 |             | Paste Rich Text               | Ctrl + Alt + V
-|             | Search and Move/Copy          | Alt + F
-|             | Search and Replace            | Ctrl + H
 |             | To uppercase                  | Ctrl + Shift + Alt + U
 |             | To lowercase                  | Ctrl + Shift + U
 |             | Increase font size            | Ctrl + Alt + Plus
@@ -46,6 +44,10 @@ commands also have their own key bindings.
 |             | Remove footnote               | Ctrl + Shift + F
 | [Formulas](../wiki/Formula-Commands) | Add/Edit formula | F5
 |             | Recalculate formulas          | Shift + F5
+| [Search](../../Search-Commands) | Search and Replace | Ctrl + H
+|             | Search and Move/Copy          | Alt + F
+|             | Tag page                      | Alt + F
+|             | Find tagged pages             | Ctrl + Alt + T
 | [Snippets](../wiki/Snippets-Commands) | Insert Code Block | F6
 |             | Insert horizontal line        | Shift + Alt + Minus
 |             | Insert double horizontal line | Shift + Alt + Equals
