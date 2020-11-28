@@ -40,11 +40,6 @@ For example, given this URL on a OneNote page: [https://github.com/](https://git
 
 it would be replaced with its hyperlinked title: [GitHub](https://github.com)
 
-## Search and Copy/Move
-Searches for keywords across pages and copies or moves selected pages (Alt + F) to another section
-
-> ![Search and Move](images/SearchAndMove.png)
-
 ## Sort
 Sorts pages, sections, or notebooks. Pages are sorted within the current section only,
 not recursively throughout the notebook. Sections are sorted throughout the current
