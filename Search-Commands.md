@@ -12,9 +12,15 @@ Searches for keywords across pages and copies or moves selected pages (Alt + F) 
 
 Adds one or more arbitrary text tags to a page. Tags can be entered on the fly, chosen from a list of recently used tags, or chosen from the most commonly occurring words on the page. Enter tags separated with a comma; this allows multi-word tags.
 
+Tags will appear below the page title, next to the date and time. Note that while this is a block of text that can be edited, that will not change the tags on the page. Page tags must be added, removed, and edited using the Tag Page dialog. Do not modify this text block manually.
+
 > ![Tagging](images/TaggingDialog.png)
 
 ## Find Tagged Pages
+
+Searches pages for the specified page tags. Tags must be separated with a comma. Use the minus operator to exclude pages that contain that tag, e.g. "-Fish" will exclude all pages that are tagged with "Fish".
+
+Searching is done by applying _one or more of the included tags but none of the excluded tags_.
 
 > ![Tagged](images/TaggedDialog.png)
 
