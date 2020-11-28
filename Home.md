@@ -44,7 +44,7 @@ commands also have their own key bindings.
 |             | Remove footnote               | Ctrl + Shift + F
 | [Formulas](../wiki/Formula-Commands) | Add/Edit formula | F5
 |             | Recalculate formulas          | Shift + F5
-| [Search](../../wiki/Search-Commands) | Search and Replace | Ctrl + H
+| [Search](../wiki/Search-Commands) | Search and Replace | Ctrl + H
 |             | Search and Move/Copy          | Alt + F
 |             | Tag page                      | Alt + T
 |             | Find tagged pages             | Ctrl + Alt + T
