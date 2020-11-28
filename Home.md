@@ -46,7 +46,7 @@ commands also have their own key bindings.
 |             | Recalculate formulas          | Shift + F5
 | [Search](../../Search-Commands) | Search and Replace | Ctrl + H
 |             | Search and Move/Copy          | Alt + F
-|             | Tag page                      | Alt + F
+|             | Tag page                      | Alt + T
 |             | Find tagged pages             | Ctrl + Alt + T
 | [Snippets](../wiki/Snippets-Commands) | Insert Code Block | F6
 |             | Insert horizontal line        | Shift + Alt + Minus
