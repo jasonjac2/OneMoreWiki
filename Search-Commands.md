@@ -10,5 +10,7 @@ Searches for keywords across pages and copies or moves selected pages (Alt + F) 
 
 ## Tag Page
 
+Adds one or more arbitrary text tags to a page. Tags can be entered on the fly, chosen from a list of recently used tags, or chosen from the most commonly occurring words on the page. Enter tags separated with a comma; this allows multi-word tags.
+
 ## Find Tagged Pages
 
