@@ -10,7 +10,7 @@ Searches for keywords across pages and copies or moves selected pages (Alt + F) 
 
 ## Tag Page
 
-Adds one or more arbitrary text tags to a page. Tags can be entered on the fly by typing into the text box. Also chose by clicking tags from a list of recently used tags or tags chosen from the most commonly occurring words on the page. Enter tags separated with a comma; this allows multi-word tags.
+Adds one or more arbitrary text tags to a page. Tags can be entered on the fly by typing into the text box. Tags can also be chosen by clicking any from a list of recently used tags or tags inferred from the most commonly occurring words on the page. Enter tags separated with a comma; this allows multi-word tags such as "Wonder Woman".
 
 Tags will appear below the page title, next to the date and time. Note that while this is a block of text that can be edited, that will not change the tags on the page. Page tags must be added, removed, and edited using the Tag Page dialog. Do not modify this text block manually.
 
