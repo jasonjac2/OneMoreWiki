@@ -18,7 +18,7 @@ Tags will appear below the page title, next to the date and time. Note that whil
 
 ## Find Tagged Pages
 
-Searches pages for the specified page tags. Tags must be separated with a comma. This list of tags is parsed into inclusion list and an exclusion list where tags are included unless prefaced with a minus operator - such as "-Fish" - these are added to the exclusion list, e.g. "-Fish" will exclude all pages that are tagged with "Fish".
+Searches pages for the specified page tags. Tags must be separated with a comma. This list of tags is parsed into an inclusion list and an exclusion list where tags are included unless prefaced with a minus operator - such as "-Fish" - these are added to the exclusion list, e.g. "-Fish" will exclude all pages that are tagged with "Fish".
 
 Searching is done by applying both the inclusion list and exclusion list as follows: a page is matched and included in the result list if the page has _one or more of the inclusion tags but none of the excluded tags_.
 
