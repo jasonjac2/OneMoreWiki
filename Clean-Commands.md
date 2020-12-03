@@ -9,6 +9,9 @@ of Web pages into OneNote, for example `From <https://www....`
 Removes empty headings with no content and "extra" empty lines between paragraphs, e.g.,
 two or more lines compressed down to one line.
 
+This command also attempts to align indented and outdented blank lines with the surrounding
+content so that consecutive paragraphs can be collapsed below a shared heading.
+
 ## Remove Paragraph Spacing
 Resets line spacing to zero between all paragraphs and headings
 > ![Favorites Menu](images/RemoveSpacing.png)
