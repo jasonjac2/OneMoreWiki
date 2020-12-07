@@ -32,6 +32,10 @@ daily notes.
 
 > ![Insert Calendar](images/Calendar.jpg)
 
+## Sortable Date
+Inserts the current date in the form yyyy-mm-dd. One common use case is to prefix the title of a new page
+with the current date so it is easy to sort and visually identify pages according to the entered date.
+
 ## Code Box
 Inserts a code box with heading and area for your code. Use the Paste Rich Text command
 to paste syntax-highlighted code directly from Visual Studio<sup>1</sup>.
