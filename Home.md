@@ -51,6 +51,7 @@ commands also have their own key bindings.
 | [Snippets](../wiki/Snippets-Commands) | Insert Code Block | F6
 |             | Insert horizontal line        | Shift + Alt + Minus
 |             | Insert double horizontal line | Shift + Alt + Equals
+|             | Insert Sortable Date          | Ctrl + Shift + D
 | [Tools](../wiki/Tools) | Show XML                      | Ctrl + Shift + Alt + X
 |             | Dump diagnostic info to log   | F8
 |             | Clear the diagnostic log file | Ctrl + F8
