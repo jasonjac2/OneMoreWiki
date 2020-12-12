@@ -1,6 +1,8 @@
 ## Colorize
 Applies colorized syntax highlighting to selected source code. Supported languages include: C#, CSS, HTML, Java, JavaScript/JSON, PowerShell, Python, Typescript, VB, and XML.
 
+Languages are defined in JSON definition files located below the OneMore installation directory. Languages can be customized and new languages added; please submit a pull request if you want to include new languages in OneMore.
+
 ## Increase Font Size
 Increases the font size of the selected text or the entire page.
 
