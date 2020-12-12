@@ -1,3 +1,6 @@
+## Colorize
+Applies colorized syntax highlighting to selected source code. Supported languages include: C#, CSS, HTML, Java, JavaScript/JSON, PowerShell, Python, Typescript, VB, and XML.
+
 ## Increase Font Size
 Increases the font size of the selected text or the entire page.
 
