@@ -83,7 +83,7 @@ that VS instance with all of the source code and symbols ready to go.
 If the attach debugging dialog does not appear and instead a new instance of VS is opened then 
 [check this out from Microsoft about the Just in Time Debugger settings](https://docs.microsoft.com/en-us/visualstudio/debugger/debug-using-the-just-in-time-debugger).
 
-#### COM Registration
+## COM Registration
 
 The installer will register OneMore as a OneNote add-in by writing to the Windows System Registry in this keys:
 
@@ -163,7 +163,7 @@ The changes look similar to the following .reg file. Note that you cannot use th
 "Path"="C:\\Program Files (x86)\\River\\OneMoreAddIn\\River.OneMoreAddIn.dll"
 ```
 
-#### Development Environment
+### Development Environment
 
 The OneMore installer deploys files under %ProgramFiles(x86)\River\OneMore and registers the
 addin in the Registry by pointing to that folder. But the VS project has its own local bin folder
@@ -177,7 +177,31 @@ using something like this .reg file:
 	[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32]
 	"CodeBase"="C:\\River\\OneMore\\OneMore\\OneMoreAddIn\\bin\\x86\\Debug\\River.OneMoreAddIn.dll"
 
-#### Enable Add-in UI Error Notifiaction
+### The COM Interface Timeout
+
+The OneNote Application COM object times out if not used within a reasonable window (somewhere around
+a minute mabe?) and, regardless of whether you've wrapped the call in a try/catch, OneNote will abort
+the call, display a dialog, and maybe leave OneNote in an unusable state. This can adversely affect a
+long-running debugging session.
+
+But in normal operations, OneMore makes every effort to minimize how long it holds on to an
+Application instance.
+
+## Dark Colors
+
+OneNote, at times, can be a selfish and uncooperative little brat. If the page background is dark
+(brightness is less than 50%) then OneNote increases the brightness of all applied colors by 25%;
+the L of the HSL color value is increased by 25. But in another case of Microsoft being "too smart
+for their own good", OneNote doesn't allow you to override those colors from the COM API. No matter
+what colors you apply to the XML, OneNote will increase the brightness if the page background is
+considering "dark". You can, however, still use OneNote's font color button and it will happily
+apply any color your choose. Selfish OneNote. Selflish.
+
+> Color adjustments:  
+> https://stackoverflow.com/questions/801406/c-create-a-lighter-darker-color-based-on-a-system-color  
+> https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.controlpaint.light?view=netcore-3.1
+
+## Enable Add-in UI Error Notifiaction (deprecated)
 
 1. Open OneNote
 2. Click File.. Options.. Advanced
@@ -215,28 +239,4 @@ _Primary Registry path for Regedit:_
 	"ttidLogEditorsTable"=dword:00000000
 	"ttidLogSkyDrive"=dword:00000000
 	"ttidLogMultiRoundTripSuspend"=dword:00000000
-
-#### The COM Interface Timeout
-
-The OneNote Application COM object times out if not used within a reasonable window (somewhere around
-a minute mabe?) and, regardless of whether you've wrapped the call in a try/catch, OneNote will abort
-the call, display a dialog, and maybe leave OneNote in an unusable state. This can adversely affect a
-long-running debugging session.
-
-But in normal operations, OneMore makes every effort to minimize how long it holds on to an
-Application instance.
-
-#### Dark Colors
-
-OneNote, at times, can be a selfish and uncooperative little brat. If the page background is dark
-(brightness is less than 50%) then OneNote increases the brightness of all applied colors by 25%;
-the L of the HSL color value is increased by 25. But in another case of Microsoft being "too smart
-for their own good", OneNote doesn't allow you to override those colors from the COM API. No matter
-what colors you apply to the XML, OneNote will increase the brightness if the page background is
-considering "dark". You can, however, still use OneNote's font color button and it will happily
-apply any color your choose. Selfish OneNote. Selflish.
-
-> Color adjustments:  
-> https://stackoverflow.com/questions/801406/c-create-a-lighter-darker-color-based-on-a-system-color  
-> https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.controlpaint.light?view=netcore-3.1
 
