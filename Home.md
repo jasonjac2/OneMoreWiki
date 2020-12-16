@@ -31,7 +31,8 @@ Tested recently with Windows 10 2004 (19041.450), VS2019, and OneNote 2019/O365
 <a name="keys"></a>
 ## Key Shortcut Bindings
 While all commands can be accessed from the OneMore ribbon group menus, some
-commands also have their own key bindings.
+commands also have their own key bindings. See also OneNote's 
+[built-in keyboard shortcuts here](https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-onenote-44b8b3f4-c274-4bcc-a089-e80fdcc87950)
 
 | Category    | Command                       | Key Binding |
 | ----------- | ----------------------------- | ----------- |
