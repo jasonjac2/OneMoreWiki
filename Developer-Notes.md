@@ -81,7 +81,7 @@ If the attach debugging dialog does not appear and instead a new instance of VS 
 
 #### COM Registration
 
-The installer will register OneMore as a OneNote add-in by writing to the Windows system registry. The changes look similar to the following .reg file:
+The installer will register OneMore as a OneNote add-in by writing to the Windows system registry. The changes look similar to the following .reg file. Note that you cannot use the regasm.exe tool to register the add-in as it does not write all of the entries necessary for OneNote to properly load it.
 
 ```Windows Registry Editor Version 5.00
 
