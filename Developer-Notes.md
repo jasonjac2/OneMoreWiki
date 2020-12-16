@@ -79,6 +79,75 @@ that VS instance with all of the source code and symbols ready to go.
 If the attach debugging dialog does not appear and instead a new instance of VS is opened then 
 [check this out from Microsoft about the Just in Time Debugger settings](https://docs.microsoft.com/en-us/visualstudio/debugger/debug-using-the-just-in-time-debugger).
 
+#### COM Registration
+
+The installer will register OneMore as a OneNote add-in by writing to the Windows system registry. The changes look similar to the following .reg file:
+
+```Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\AppID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}]
+"DllSurrogate"=""
+
+[HKEY_CLASSES_ROOT\River.OneMoreAddIn]
+@="River.OneMoreAddIn.AddIn"
+
+[HKEY_CLASSES_ROOT\River.OneMoreAddIn\CLSID]
+@="{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}"
+
+[HKEY_CLASSES_ROOT\River.OneMoreAddIn\CurVer]
+@="River.OneMoreAddIn.1"
+
+[HKEY_CLASSES_ROOT\River.OneMoreAddIn.1]
+@="Addin class"
+
+[HKEY_CLASSES_ROOT\River.OneMoreAddIn.1\CLSID]
+@="{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}"
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}]
+@="River.OneMoreAddIn.AddIn"
+"AppID"="{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}"
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\Implemented Categories]
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"CodeBase"="C:\\Program Files (x86)\\River\\OneMoreAddIn\\River.OneMoreAddIn.dll"
+"RuntimeVersion"="v4.0.30319"
+"Class"="River.OneMoreAddIn.AddIn"
+"Assembly"="River.OneMoreAddIn, Version=3.10.4.0, Culture=neutral, PublicKeyToken=null"
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32\3.10.4.0]
+"CodeBase"="C:\\Program Files (x86)\\River\\OneMoreAddIn\\River.OneMoreAddIn.dll"
+"Assembly"="River.OneMoreAddIn, Version=3.10.4.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"Class"="River.OneMoreAddIn.AddIn"
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\ProgID]
+@="River.OneMoreAddin"
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\Programmable]
+@=""
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\TypeLib]
+@="{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}"
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\VersionIndependentProgID]
+@="River.OneMoreAddIn"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\AppID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}]
+"DllSurrogate"=""
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\OneNote\AddIns\River.OneMoreAddIn]
+"LoadBehavior"=dword:00000003
+"Description"="Extension for OneNote"
+"FriendlyName"="OneMoreAddIn"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\River.OneMoreAddIn.dll]
+"Path"="C:\\Program Files (x86)\\River\\OneMoreAddIn\\River.OneMoreAddIn.dll"
+```
 
 #### Enable Add-in UI Error Notifiaction
 
