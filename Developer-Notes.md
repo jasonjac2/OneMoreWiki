@@ -149,12 +149,6 @@ The installer will register OneMore as a OneNote add-in by writing to the Window
 "Path"="C:\\Program Files (x86)\\River\\OneMoreAddIn\\River.OneMoreAddIn.dll"
 ```
 
-#### Enable Add-in UI Error Notifiaction
-
-1. Open OneNote
-2. Click File.. Options.. Advanced
-3. At bottom of page, enable the checkbox _Show add-in user interface errors_
-
 #### Development Environment
 
 The OneMore installer deploys files under %ProgramFiles(x86)\River\OneMore and registers the
@@ -168,6 +162,12 @@ using something like this .reg file:
 	Windows Registry Editor Version 5.00
 	[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32]
 	"CodeBase"="C:\\River\\OneMore\\OneMore\\OneMoreAddIn\\bin\\x86\\Debug\\River.OneMoreAddIn.dll"
+
+#### Enable Add-in UI Error Notifiaction
+
+1. Open OneNote
+2. Click File.. Options.. Advanced
+3. At bottom of page, enable the checkbox _Show add-in user interface errors_
 
 ##### Other Registry Locations
 
