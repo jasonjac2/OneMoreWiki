@@ -41,7 +41,7 @@ Other Technical Articles
 
 ## Rebuilding for 32-Bit Machines
 
-There is no technical different between the 32-bit build and 64-bit build of OneMore and its DLLs. But there are 32-bit and 64-bit installers for OneMore. Either installer will work with either 32-bit or 64-bit OneNote on a Windows 64-bit machine. But if you have a 32-bit machine, you need to use the 32-bit installer.
+There is no technical different between the 32-bit build and 64-bit build of OneMore and its DLLs. But there are 32-bit and 64-bit installers for OneMore. On a Windows 64-bit machine, either installer will work with either 32-bit or 64-bit OneNote. But if you have a 32-bit machine, you need to use the 32-bit installer.
 
 The Setup project will build as a 32-bit installer by default. There are two options to build a 64-bit installer:
 
