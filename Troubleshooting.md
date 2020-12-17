@@ -1,4 +1,4 @@
-Software doesn't have defects. Programmers do. Am I'm no exception. So what should you do if OneMore doesn't seen to be doing what it should be doing?
+Software doesn't have defects. Programmers do. And I'm no exception. So what should you do if OneMore doesn't seen to be doing what it should be doing?
 
 1. Check the log file! This is your first stop for diagnosing problems. OneMore writes a lot file to %TEMP%\OneMore.log. You can easily get to this from the hyperlink on the OneMore About dialog, presuming OneMore is working enough so you can get there. But often, errors will be written to this log file. When submitting a bug, copy any exceptions in this log file to the issue ticket.
 
