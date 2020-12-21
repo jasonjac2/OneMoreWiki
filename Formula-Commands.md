@@ -14,7 +14,7 @@ and most math functions such as abs, sum, average, sin, etc.
 
 1. Select the cell or cells into which you want to add a formula; they must be linear and
    contiguous, meaning in the same row or in the same column.
-1. Select the Add Formula command. The Formula dialog is displayed showing the names of the
+1. Select the Add Formula command (F5). The Formula dialog is displayed showing the names of the
    selected cells: A1, A2, A3, etc.
 1. Enter the formula. As you type, OneMore validates the syntax in real-time, showing whether
    the formula is valid or invalid. Only when it is valid will the OK button be enabled.
@@ -32,7 +32,7 @@ Formula processing is not recursive. This means that if cell A1 has a formula "A
 A2 has a formula "1+1", then when A1 is calculated, it will not force A2 to be recalculated.
 Instead, each cell is calculated in order, top-down and left-to-right across the table.
 
-The Recalculate command will recalculate all formulas in the selected table(s).
+The Recalculate command (Shift + F5) will recalculate all formulas in the selected table(s).
 
 The Highlight command will select all cells on the page containing formulas so you know where
 you put them.
