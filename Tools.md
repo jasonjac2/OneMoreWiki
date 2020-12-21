@@ -40,7 +40,7 @@ you probably forgot to specify the right arguments to powershell.exe or python.e
 
 The OneNote page schema is defined in the 0336.OneNoteApplication_2013.xsd file in the Properties folder of the project repo.
 
-## XML Dialog
+## XML Dialog (Ctrl + Shift + Alt + X)
 
 Developing OneMore meant reverse-engineering the way Microsoft built OneNote. And it's XML
 schema reference documentation was only half the picture. This editor became invaluable
