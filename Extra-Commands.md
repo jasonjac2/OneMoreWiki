@@ -27,6 +27,11 @@ automatically by this command; you'll need to adjust those manually._
 ## Insert Pronunciation
 Inserts the "ruby text" pronunciation of selected words. This uses an online service that supports over a dozen languages.
 
+## Map Linked Pages
+Generates a report showing all pages that contain links to other pages. This can be scope to the current section, current notebook, or all notebooks. The report is produced as a new page in the current section.
+
+By default, links are scanned within the chosen scope, e.g. just the current section. If you want to include links beyond the current scope, check the _Include cross-notebook references_ checkbox. Depending on the number of pages and notebooks, this can be time consuming.
+
 ## Merge pages
 Merges two or more pages into a single page preserving formatting and position of outlines. 
 
