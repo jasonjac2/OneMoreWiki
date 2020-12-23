@@ -1,6 +1,6 @@
 ## Search and Replace (Ctrl + H)
 Searches the current page for the specified phrase and replaces it with a new phrase. Use standard Regular Expression syntax for advanced searches.
-Searches line-by-line so it will not find text that spans paragraphs or table cells.
+Searches line-by-line so it will not find text that spans paragraphs or table cells. If the text cursor is currently within a word, that word is shown as the text to replace.
 > ![Search and Replace dialog](images/SearchAndReplace.png)
 
 ## Search and Copy/Move (Alt + F)
