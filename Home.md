@@ -1,12 +1,11 @@
 OneMore is an add-in for Microsoft OneNote 2019 that adds powerful yet simple and effective features.
 
-* Access all features from the OneMore group menus added to the Home ribbon
-* Access some "key" features using [keyboard shortcuts](#keys) (see what I did there?)
+* Integrated with the OneNote ribbon, context menus, and keyboard shortcuts for easy access
+* [Customize the Text context menu](Settings) to add OneMore commands or a a custom search engine
 * Apply [colorized syntax highlighting](Edit-Commands) to snippets of source code
 * Create/edit/apply [custom styles](Custom-Styles) with advanced options
 * Manage menu of [Favorites](Favorites) for one-click link to your most referenced pages
 * Add [formulas](Formula-Commands) to table cell using Excel-like expressions
-* [Customize the context menu](Settings) to add OneMore commands or a a custom search engine
 
 *Want more from OneMore? OneMore has more...* Click the pages on the right to discover all the gritty details ---->
 
@@ -27,6 +26,8 @@ Tested recently with Windows 10 2004 (19041.450), VS2019, and OneNote 2019/O365
 3. Right-click the downloaded installer msi and choose Properties, then tick the Unblock box and click OK
 4. Run the installer
 5. Run OneNote and enjoy
+
+If you have issues, see the quick [trouble shooting guide](Troubleshooting). If that doesn't solve your issue then please [submit a new ticket](https://github.com/stevencohn/OneMore/issues/new/choose).
 
 <a name="keys"></a>
 ## Key Shortcut Bindings
