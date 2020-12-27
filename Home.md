@@ -1,6 +1,6 @@
 OneMore is an add-in for Microsoft OneNote 2019 that adds powerful yet simple and effective features.
 
-* Integrated with the OneNote ribbon, context menus, and [keyboard shortcuts](#keys) for easy access
+* Integrated with the OneNote ribbon, [context menus](#ctxmenus), and [keyboard shortcuts](#keys) for easy access
 * [Customize the Text context menu](Settings) to add OneMore commands or a a custom search engine
 * Apply [colorized syntax highlighting](Edit-Commands) to snippets of source code
 * Create/edit/apply [custom styles](Custom-Styles) with advanced options
@@ -28,6 +28,16 @@ Tested recently with Windows 10 2004 (19041.450), VS2019, and OneNote 2019/O365
 5. Run OneNote and enjoy
 
 If you have issues, see the quick [trouble shooting guide](Troubleshooting). If that doesn't solve your issue then please [submit a new ticket](https://github.com/stevencohn/OneMore/issues/new/choose).
+
+<a name="ctxmenus"></a>
+## Extended Context Menus
+OneNote presents different context menus when you right-click on different parts of its UI. OneMore extends some of these default context menus to add its own commands.
+
+* The default Text context menu [can be customized](Settings) to add a number of editing commands
+* Right-click a picture to add a caption, crop, or resize the image
+* Right-click a notebook to add or remove numbering to all notebooks
+* Right-click a page in the page navigation panel to export, split, or merge pages
+* Right-click the page navigation panel background to add or remove numbering to pages in the section
 
 <a name="keys"></a>
 ## Key Shortcut Bindings
