@@ -1,4 +1,4 @@
-(Home)[Home]<br>
+[Home](Home)</br>
 Clean Commands
 Custom Styles
 Edit Commands
