@@ -11,6 +11,7 @@ Applies colorized syntax highlighting to selected source code. Supported languag
 - Typescript
 - VB
 - XML
+- YAML
 
 For best results, first select the text you want to colorize, set the style to Code, and then colorize the selection.
 
