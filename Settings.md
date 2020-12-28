@@ -7,6 +7,19 @@ Note that if you choose one of the "menu" options such as "Edit Menu" then that 
 
 > ![Context Menu Options](images/ContextMenuSheet.png)
 
+## Favorites Manager
+Use the table to reorder, sort, or delete favorites.
+
+The _Include reference to keyboard shortcuts page_ checkbox is used to add or remove a special link to the Favorites menu that displays a page listing the OneMore and built-in OneNote keyboard shorts - see below.
+
+> ![Favorites Manager](images/FavoritesSheet.png)
+
+The first time the keyboard shortcuts Favorite is clicked, OneMore will download and import and keyboard shortcuts reference page under the current section and navigate to that page. It may take a couple of seconds to appear.
+
+Subsequent clicks will simply navigate to that page again.
+
+This page can be moved to any open section or notebook and OneMore will still find it. If the page is deleted, clicking the Favorite link will download it again.
+
 ## Rotating Highlighter Options
 The rotating highlighter uses an array of colors to highlight selected text. Each time you select text and use this command, it will highlight the selected text using the next color in the array. The highlighter options let you choose which color theme to use
 
