@@ -10,7 +10,7 @@ Adds the current page to the end of the favorites menu.
 Opens the Settings dialog and shows the Favorites Manager sheet
 
 ### OneNote Keyboard Shortcuts
-This is a special link that can be enabled in the Favorites Manager.
+This is a special link that can be enabled in the [Favorites Manager](Settings).
 
 The first time this link is clicked, OneMore will download an import and keyboard shortcuts reference page under the current section and show that page. It may take a couple of seconds to appear.
 
