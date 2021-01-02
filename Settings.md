@@ -59,3 +59,7 @@ If you define one engine then that is shown directly in the page context menu. I
 more than one engine, then a submenu is added to the context menu with a list of engines that
 you define.
 
+## Custom Snippets Manager
+Manage custom snippets
+
+> ![Snippets Manager](images/SnippetsSheet.png)
