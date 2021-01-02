@@ -1,5 +1,5 @@
 ## Import
-Import either Word or PowerPoint, either appending content to the current page or into a new page. 
+Import Word (.docx) or PowerPoint (.pptx), OneNote (.one), or XML (.xml) by either appending content to the current page or creating a new page. 
 Additionally, for PowerPoint, each slide can be imported into its own page so you could use OneNote as a PowerPoint presenter by entering full screen mode and using Ctrl-PgDn to move to the next slide.
 
 > ![Import Dialog](images/Import.png)
