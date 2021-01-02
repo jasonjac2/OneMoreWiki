@@ -12,6 +12,9 @@ text in that footnote to your heart's desire. Text colors are based on the page 
 Note that footnotes are hyperlinked so you jump from the content body down to the text
 of a footnote or back up again to the content that references a particular footnote.
 
+## Insert QR Code
+Converts selected text to a QR code and inserts the QR image into a new paragraph following the selected text. QR codes provide a convenient way to share passwords, Web addresses, any other data (up to 2000 characters).
+
 ## Map Linked Pages
 Generates a report showing all pages that contain links to other pages. This can be
 scope to the current section, current notebook, or all notebooks. The report is produced
