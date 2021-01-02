@@ -4,7 +4,10 @@ Searches line-by-line so it will not find text that spans paragraphs or table ce
 
 > ![Search and Replace dialog](images/SearchAndReplace.png)
 
-If the _Replace with_ text contains the string \n then that is replaced with a Newline character.
+If the _Replace with_ text contains the sequence \n then that is replaced with a Newline character. For example, replacing text with "one\ntwo" will result in two lines as follows:
+
+   one
+   two
 
 ## Search and Copy/Move (Alt + F)
 Searches for keywords across pages and copies or moves selected pages (Alt + F) to another section
