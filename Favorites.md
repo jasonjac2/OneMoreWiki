@@ -9,6 +9,14 @@ Adds the current page to the end of the favorites menu.
 ### Manage Favorites
 Opens the Settings dialog and shows the Favorites Manager sheet
 
+### Save Custom Snippet
+Saves the selected content as a new named snippet. Once saved, the snippet can be inserted onto any page, at any location, by clicking the snippet on the Favorites menu.
+
+Snippets can be used to easily insert repeatable content such as custom styled tables, blocks of text, signature lines, etc.
+
+### Manage Custom Snippets
+Opens the Settings dialog and shows the Snippets Manager sheet
+
 ### OneNote Keyboard Shortcuts
 This is a special link that can be enabled in the [Favorites Manager](Settings).
 
