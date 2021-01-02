@@ -27,27 +27,12 @@ automatically by this command; you'll need to adjust those manually._
 ## Insert Pronunciation
 Inserts the "ruby text" pronunciation of selected words. This uses an online service that supports over a dozen languages.
 
-## Map Linked Pages
-Generates a report showing all pages that contain links to other pages. This can be scope to the current section, current notebook, or all notebooks. The report is produced as a new page in the current section.
-
-By default, links are scanned within the chosen scope, e.g. just the current section. If you want to include links beyond the current scope, check the _Include cross-notebook references_ checkbox. Depending on the number of pages and notebooks, this can be time consuming.
-
 ## Merge pages
 Merges two or more pages into a single page preserving formatting and position of outlines. 
 
 Outlines are using in variety of ways, not the least of which to preserve some conceptual context with other containers on the page based on size and position, so OneMore doesn't attempt to merge containers from multiple pages but instead preserves the layout of containers from each page in a continuous stream in the newly merged page.
 
 You can easily merge to containers by Shift+clicking one container and dragging it on top of the container with which you want the first to be merged. This is a built-in OneNote feature.
-
-## Replace URLs with Web Page Titles
-Automatically replaces all or selected hyperlinked URLs with the &lt;title> specified on the 
-associated Web pages. This only affects URLs for which the displayed text is the same as the
-link address, meaning if you've already customized the displayed text, OneMore will not alter
-your changes.
-
-For example, given this URL on a OneNote page: [https://github.com/](https://github.com/)
-
-it would be replaced with its hyperlinked title: [GitHub](https://github.com)
 
 ## Sort
 Sorts pages, sections, or notebooks. Pages are sorted within the current section only,
