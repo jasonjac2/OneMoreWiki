@@ -1,5 +1,7 @@
 Snippets are bits of contents that can be inserted onto a page and provide repeatable and standardized elements that make editing easier and faster.
 
+_To learn how to save custom snippets of content, refer to the [Favorites](Favorites) page_
+
 ## Horizontal Line
 Adds a horizontal line below the current paragraph
 
