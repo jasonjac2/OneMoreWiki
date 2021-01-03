@@ -60,6 +60,6 @@ more than one engine, then a submenu is added to the context menu with a list of
 you define.
 
 ## Custom Snippets Manager
-Manage custom snippets
+Snippets are automatically ordered alphabetically but you can delete individual snippets using the Snippets Manager
 
 > ![Snippets Manager](images/SnippetsSheet.png)
