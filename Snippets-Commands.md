@@ -38,15 +38,19 @@ daily notes.
 Inserts the current date in the form yyyy-mm-dd. One common use case is to prefix the title of a new page
 with the current date so it is easy to sort and visually identify pages according to the entered date.
 
+## Text Box
+Insert a single-cell table. To wrap content already on the page, select the content before invoking
+this command.
+
 ## Code Box (F6)
 Inserts a code box with heading and area for your code. Use the Paste Rich Text command
 to paste syntax-highlighted code directly from Visual Studio<sup>1</sup>.
 By default, text colors are based on the page background color.
 
-To wrap text already on the page, select the text before clicking this command or pressing F6. The selected
-code will be wrapped inside a new code box. If the background color is dark and the page background is light
-then the shading of the code box is set accordingly; similar if the background color is light and the page
-background is dark.
+To wrap content already on the page, select the content before clicking this command or pressing F6. The selected
+content will be wrapped inside a new code box. If the background color of all of the selected text is dark and
+the page background is light then the shading of the code box is set accordingly; similar if the background color
+of all of the selected text is light and the page background is dark.
 
 > ![Code Box](images/CodeBox.jpg)
 
