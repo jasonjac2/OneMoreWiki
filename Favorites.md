@@ -14,6 +14,11 @@ Saves the selected content as a new named snippet. Once saved, the snippet can b
 
 Snippets can be used to easily insert repeatable content such as custom styled tables, blocks of text, signature lines, etc.
 
+### My Saved Plugins
+If you've created and saved custom plugins, they will be listed as a separate sub-menu off of the Favorites menu.
+Click the _Manage Saved Plugins_ item to open the Plugin Manager where you can edit, rename, or delete plugins.
+Or click a plugin from the menu to immediately invoke it.
+
 ### Manage Custom Snippets
 Opens the Settings dialog and shows the Snippets Manager sheet
 
