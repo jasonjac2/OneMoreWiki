@@ -1,3 +1,6 @@
+## Change Sentence Spacing
+Reformats the current page to consistently set spacing between sentences to either one or two spaces. 
+
 ## Remove Author Information
 Removes all author information from the current page
 
