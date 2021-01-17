@@ -5,7 +5,9 @@ Additionally, for PowerPoint, each slide can be imported into its own page so yo
 > ![Import Dialog](images/Import.png)
 
 ## Export
-Export the current page or selected as HTML, Word, PDF, or raw native OneNote XML.
+Export the current page or selected as HTML, Word, PDF, OneNote .one format, or internal OneNote XML.
+
+If you choose HTML, you will be given the option to export each page as a single .htm file in the specified folder or archive each page into its own sub-folder, optionally with copies of the file attachments on each page.
 
 There are some differences in the way OneMore exports pages from the way OneNote exports pages. If multiple pages are selected, OneMore will create a new file for each page. In comparison, if you choose to export as Word docx, OneNote will append the content from all pages into a single file. 
 
