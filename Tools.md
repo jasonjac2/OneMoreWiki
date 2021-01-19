@@ -44,6 +44,11 @@ Any output that your plugin writes to stdout will be captured in the OneMore log
 Note, if you run the plugin and a Web browser is invoked (IE) showing the XML file contents then
 you probably forgot to specify the right arguments to powershell.exe or python.exe.
 
+You can use the special keyword _$name_ in the Page Name field. This will be replaced with
+the name of the current page when you invoke the plugin from the Favorites menu or choose it
+from the drop-down list. For example, if you're on page "Forecasting" and the Page Name is
+set to "Quarterly $name" then the created page when it will be named "Quarterly Forecasting"
+
 The OneNote page schema is defined in the 0336.OneNoteApplication_2013.xsd file in the Properties folder of the project repo.
 
 ## XML Dialog (Ctrl + Shift + Alt + X)
