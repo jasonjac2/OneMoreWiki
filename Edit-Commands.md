@@ -31,6 +31,9 @@ Converts the selected text to uppercase.
 ## To lowercase (Ctrl + Shift + U)
 Converts the selected text to lowercase.
 
+## Join Paragraph
+Joins multiple selected consecutive lines into a single paragraph, eliminating soft-breaks.
+
 ## No Spell Check (F4)
 Disables all spell checking on the current page. (Actually this tricks OneNote by setting the proofing language of the page to "yo".)
 
