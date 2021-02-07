@@ -34,6 +34,8 @@ daily notes.
 
 > ![Insert Calendar](images/Calendar.jpg)
 
+The _Indent calenar_ option will indent the calendar beneath the header, allowing the header to be collapsed
+
 ## Sortable Date (Ctrl + Shift + D)
 Inserts the current date in the form yyyy-mm-dd. One common use case is to prefix the title of a new page
 with the current date so it is easy to sort and visually identify pages according to the entered date.
