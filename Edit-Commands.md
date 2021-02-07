@@ -31,6 +31,9 @@ Converts the selected text to uppercase.
 ## To lowercase (Ctrl + Shift + U)
 Converts the selected text to lowercase.
 
+## Invert Selection
+Inverts the selection on the current page, de-selecting all selected content and selecting all non-selected content.
+
 ## Join Paragraph
 Joins multiple selected consecutive lines into a single paragraph, eliminating soft-breaks.
 
