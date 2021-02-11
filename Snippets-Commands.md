@@ -41,8 +41,9 @@ Inserts the current date in the form yyyy-mm-dd. One common use case is to prefi
 with the current date so it is easy to sort and visually identify pages according to the entered date.
 
 ## Text Box
-Insert a single-cell table. To wrap content already on the page, select the content before invoking
-this command.
+Insert a single-cell table. To surround content already on the page, select the content before invoking
+this command. This table cell will shrink to the size of the selected content if it is not as wide as
+the page.
 
 ## Code Box (F6)
 Inserts a code box with heading and area for your code. Use the Paste Rich Text command
