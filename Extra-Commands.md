@@ -46,5 +46,8 @@ Splits the current page at each Heading1 or page links. Also, these can be filte
 
 This will create new pages in the current section. If splitting on page links, if the linked pages exists, it must exist in the current section or it will not be found and a new page will be created in the current section; if it is found then the content will be appended to that page. 
 
+## Split Table
+Splits the current table starting at the row containing the input cursor. Optionally, the header can be duplicated in the new table and columns in both can be fixed to their current widths so the two tables remain aligned.
+
 ## Strikethrough Completed To Do Tags
 Toggles strikethrough text next to all completed/incompleted tags
