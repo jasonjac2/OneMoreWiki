@@ -24,6 +24,10 @@ By default, links are scanned within the chosen scope, e.g. just the current sec
 If you want to include links beyond the current scope, check the _Include cross-notebook
 references_ checkbox. Depending on the number of pages and notebooks, this can be time consuming.
 
+## Refresh Footnotes
+Refreshes all footnote references on the page so their numbers are sequential on the page. 
+This is useful when moving content up or down the page.
+
 ## Remove Footnote (Ctrl + Shift + F)
 And if you no longer want a footnote, place the cursor over the label or over the footnote
 text at the bottom of the page and click the *Remove footnote* command. Voila!
