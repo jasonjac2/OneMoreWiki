@@ -3,6 +3,10 @@ the most obvious feature missing is a Favorites menu. Well, you now have one wit
 
 > ![Favorites Menu](images/FavoritesMenu.png)
 
+Note that you can also add a section to the favorites menu by right-clicking on the section itself
+and choosing _Add to Favorites_. When the section favorite is clicked, focus is returned to the
+most recently visited page in that section.
+
 ### Add current page
 Adds the current page to the end of the favorites menu.
 
