@@ -38,6 +38,7 @@ OneNote presents different context menus when you right-click on different parts
 * Right-click a notebook to add or remove numbering to all notebooks
 * Right-click a page in the page navigation panel to export, split, or merge pages
 * Right-click the page navigation panel background to add or remove numbering to pages in the section
+* Right-click a section or notebook to archive all pages in that context
 
 <a name="keys"></a>
 ## Key Shortcut Bindings
