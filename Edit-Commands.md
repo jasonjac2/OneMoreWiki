@@ -19,6 +19,12 @@ The highlighting is not as complete as you might find in VS or VSCode but then O
 
 If you're so inclined to add enhancements or define a new language, please submit a pull request.
 
+## Collapse Outline
+Collapse paragraphs marked as _collapsible_ by the Expand Outline command
+
+## Expand Outline
+Expands collapsed paragraphs, marking those paragraphs as _collapsible_
+
 ## Increase Font Size (Ctrl + Alt + Plus)
 Increases the font size of all text on the entire page. To increase the font size of selected text, use the built-in OneNote shortcut Ctrl+Shift+>
 
