@@ -37,6 +37,9 @@ Converts the selected text to uppercase.
 ## To lowercase (Ctrl + Shift + U)
 Converts the selected text to lowercase.
 
+** To Title Case
+Converts the selected text to title case.
+
 ## Invert Selection
 Inverts the selection on the current page, de-selecting all selected content and selecting all non-selected content.
 
