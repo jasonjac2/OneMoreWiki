@@ -40,14 +40,19 @@ Converts the selected text to lowercase.
 ** To Title Case
 Converts the selected text to title case.
 
+## Enable Spell Check
+Enables spell checking on the current page or for the selected text by
+resetting the proofing language of the page to your default culture, e.g. "en-US"
+
+## Disable Spell Check (F4)
+Disables spell checking on the current page or for the selected text by
+setting the proofing language of the page to "yo".
+
 ## Invert Selection
 Inverts the selection on the current page, de-selecting all selected content and selecting all non-selected content.
 
 ## Join Paragraph
 Joins multiple selected consecutive lines into a single paragraph, eliminating soft-breaks.
-
-## No Spell Check (F4)
-Disables all spell checking on the current page. (Actually this tricks OneNote by setting the proofing language of the page to "yo".)
 
 ## Paste Rich Text (Ctrl + Alt + V)
 Pastes rich text from the clipboard, preserving formatting and colors.
