@@ -52,6 +52,10 @@ the name of the current page when you invoke the plugin from the Favorites menu 
 from the drop-down list. For example, if you're on page "Forecasting" and the Page Name is
 set to "Quarterly $name" then the created page when it will be named "Quarterly Forecasting"
 
+The default timeout - time allotted in which a plugin must complete - is 15 seconds. You
+can change that by entering the number of seconds into the Timeout field. If set to zero
+then the timeout is set to one hour.
+
 The OneNote page schema is defined in the 0336.OneNoteApplication_2013.xsd file in the Properties folder of the project repo.
 
 ## XML Dialog (Ctrl + Shift + Alt + X)
