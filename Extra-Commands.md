@@ -12,6 +12,11 @@ Converts selected text to a table. Text must be delimited by a comma, space, or 
 
 > ![Text To Table](images/TextToTable.png)
 
+## Date stamp pages in section
+Prepends the title of each page with the created date of the page using the form YYYY-MM-DD.
+If a page title already contains that value, no changes are made. This command is available
+from the Extra menu or by right-clicking a section.
+
 ## Insert Table Cells
 Adds the ability to insert cells into a table, shifting existing content down or to the right.
 This is similar to the Excel functionality with one enhancement - if you select a rectangular
