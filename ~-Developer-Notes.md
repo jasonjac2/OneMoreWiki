@@ -62,10 +62,10 @@ Rebuild the Setup project and away you go!
 
 There is a PowerShell script named **build.ps1** in the solution folder that can build both the 32-bit
 and the 64-bit installers. Prior to running this script, you must first configure your machine by
-running the Microsoft tool:
+running the Microsoft tool (here showing PowerShell syntax):
 
-    C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\
-        CommonExtensions\Microsoft\VSI\DisableOutOfProcBuild\DisableOutOfProcBuild.exe
+    cd 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\VSI\DisableOutOfProcBuild'
+    .\DisableOutOfProcBuild.exe
 
 This is provided specifically to allow later versions of VS to build vdproj projects from the
 command line.
