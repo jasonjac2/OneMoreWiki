@@ -64,7 +64,7 @@ There is a PowerShell script named **build.ps1** in the solution folder that can
 and the 64-bit installers. Prior to running this script, you must first configure your machine by
 running the Microsoft tool (here showing PowerShell syntax):
 
-    cd 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\VSI\DisableOutOfProcBuild'
+    cd 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\VSI\DisableOutOfProcBuild';
     .\DisableOutOfProcBuild.exe
 
 This is provided specifically to allow later versions of VS to build vdproj projects from the
