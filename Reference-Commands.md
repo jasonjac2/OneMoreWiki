@@ -15,6 +15,9 @@ of a footnote or back up again to the content that references a particular footn
 ## Insert QR Code
 Converts selected text to a QR code and inserts the QR image into a new paragraph following the selected text. QR codes provide a convenient way to share passwords, Web addresses, any other data (up to 2000 characters).
 
+## Link References To This Page
+Creates bi-directional reference links between the current page and pages that reference this page by its title. All instances of the page title on referring pages are converted to hyperlinks back to this page and a _Linked References_ sections is appended to this page with links back to all referring pages.
+
 ## Map Linked Pages
 Generates a report showing all pages that contain links to other pages. This can be
 scope to the current section, current notebook, or all notebooks. The report is produced
@@ -35,6 +38,9 @@ text at the bottom of the page and click the *Remove footnote* command. Voila!
 OneMore keeps track of footnotes and will automatically reorder them to keep them numbered
 sequentially from the top of the page. If you delete a footnote, it again will renumber
 the remaining footnotes so there are no gaps. Pretty slick, huh?
+
+## Replace URLs with Images
+Replaces all or selected hyperlinked URLs that reference online images with those referred image. If the image cannot be downloaded, no changes are made.
 
 ## Replace URLs with Web Page Titles
 Automatically replaces all or selected hyperlinked URLs with the &lt;title> specified on the 
