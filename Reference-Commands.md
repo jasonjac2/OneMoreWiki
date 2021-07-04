@@ -40,7 +40,7 @@ sequentially from the top of the page. If you delete a footnote, it again will r
 the remaining footnotes so there are no gaps. Pretty slick, huh?
 
 ## Replace URLs with Images
-Replaces all or selected hyperlinked URLs that reference online images with those referred image. If the image cannot be downloaded, no changes are made.
+Replaces all or selected hyperlinked URLs that reference online images with those referred image. If the image cannot be downloaded, no changes are made. This will only affect URLs where you can read the Web address on the page; it skips URLs where the text differs from the actual address.
 
 ## Replace URLs with Web Page Titles
 Automatically replaces all or selected hyperlinked URLs with the &lt;title> specified on the 
