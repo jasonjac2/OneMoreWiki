@@ -27,6 +27,11 @@ Subsequent clicks will simply navigate to that page again.
 
 This page can be moved to any open section or notebook and OneMore will still find it. If the page is deleted, clicking the Favorite link will download it again.
 
+## Horizontal Lines Options
+The single and double horizontal line snippets are simple text lines of hyphens and equal signs respectively. You can change the default color and length of these lines using this settings page.
+
+> ![Horizontal Line Options](images/LinesSheet.png)
+
 ## Rotating Highlighter Options
 The rotating highlighter uses an array of colors to highlight selected text. Each time you select text and use this command, it will highlight the selected text using the next color in the array. The highlighter options let you choose which color theme to use
 

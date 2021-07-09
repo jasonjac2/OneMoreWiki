@@ -12,6 +12,9 @@ Converts selected text to a table. Text must be delimited by a comma, space, or 
 
 > ![Text To Table](images/TextToTable.png)
 
+## Copy Section Group
+Accessed by right-clicking a section group, copies a section group (folder) to another notebook or section group. Note that sections on each level of the hierarchy must have unique names. If there are two sibiling sections with the same name then pages may be copied only to the first section.
+
 ## Date stamp pages in section
 Prepends the title of each page with the created date of the page using the form YYYY-MM-DD.
 If a page title already contains that value, no changes are made. This command is available
