@@ -48,6 +48,7 @@ commands also have their own key bindings. See also OneNote's
 
 | Category    | Command                       | Key Binding |
 | ----------- | ----------------------------- | ----------- |
+|             | Replay Last Command           | Alt + Shift + R
 | [Editing](../wiki/Edit-Commands) | No Spell Check | F4
 |             | Paste Rich Text               | Ctrl + Alt + V
 |             | To uppercase                  | Ctrl + Shift + Alt + U
