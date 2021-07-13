@@ -5,7 +5,7 @@ OneMore is an add-in for Microsoft OneNote 2019 that adds powerful yet simple an
 * Apply [colorized syntax highlighting](Edit-Commands) to snippets of source code
 * Create/edit/apply [custom styles](Custom-Styles) with advanced options
 * Manage menu of [Favorites](Favorites) for one-click link to your most referenced pages
-* Add [formulas](Formula-Commands) to table cell using Excel-like expressions
+* Add [formulas](Table-Commands) to table cell using Excel-like expressions
 
 *Want more from OneMore? OneMore has more...* Click the pages on the right to discover all the gritty details ---->
 
@@ -57,7 +57,7 @@ commands also have their own key bindings. See also OneNote's
 |             | Decrease font size            | Ctrl + Alt + Minus
 | [Footnotes](../wiki/Footnote-Commands) | Add footnote | Ctrl + Alt + F
 |             | Remove footnote               | Ctrl + Shift + F
-| [Formulas](../wiki/Formula-Commands) | Add/Edit formula | F5
+| [Formulas](../wiki/Table-Commands) | Add/Edit formula | F5
 |             | Recalculate formulas          | Shift + F5
 | [Search](../wiki/Search-Commands) | Search and Replace | Ctrl + H
 |             | Search and Move/Copy          | Alt + F
