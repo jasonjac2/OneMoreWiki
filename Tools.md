@@ -58,6 +58,17 @@ then the timeout is set to one hour.
 
 The OneNote page schema is defined in the 0336.OneNoteApplication_2013.xsd file in the Properties folder of the project repo.
 
+## Replay Last Command
+
+Executes the most recently invoked command. Provides a quick and efficient means of replaying
+commonly used commands such as the rotating highlighter, clean commands, snippets, and others.
+
+This is not a "deep" replay, meaning if the command displays a dialog asking for input, it won't do
+that silently; you'll still need to respond to the dialog.
+
+There are a few commands that cannot be replayed: manage favorites, manage snippets, manage plugins,
+and the settings dialog.
+
 ## XML Dialog (Ctrl + Shift + Alt + X)
 
 Developing OneMore meant reverse-engineering the way Microsoft built OneNote. And it's XML
