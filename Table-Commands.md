@@ -1,3 +1,23 @@
+## Convert Text to Table
+Converts selected text to a table. Text must be delimited by a comma, space, or other special character so the command can detect columns.
+
+## Insert Table Cells
+Adds the ability to insert cells into a table, shifting existing content down or to the right.
+This is similar to the Excel functionality with one enhancement - if you select a rectangular
+region of cells then it will shift just those cells, possibly overwriting other cells. If you
+select cells from one column or cells from one row then it will insert cells above or to the left
+and add rows or columns as needed to make room for the new cells.
+
+> ![Insert Table Cells](images/InsertCellsDialog.png)
+
+_Note that if you move cells with formulas, the cell references in those formulas are not updated
+automatically by this command; you'll need to adjust those manually._
+
+## Split Table
+Splits the current table starting at the row containing the input cursor. Optionally, the header can be duplicated in the new table and columns in both can be fixed to their current widths so the two tables remain aligned.
+
+# Formula Commands
+
 OneNote lets you insert an Excel table on a page or convert a table to an Excel object. This is
 convenient if you want complicated formulas and charts... and you have Excel installed! But what
 if you don't?
