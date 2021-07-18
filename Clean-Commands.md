@@ -1,6 +1,9 @@
 ## Change Sentence Spacing
 Reformats the current page to consistently set spacing between sentences to either one or two spaces. 
 
+## Clear Background Color
+Clears the highlight background of text or the shading of table cells and also resets the text color to maintain readability against the default background. This is useful for quickly resetting the styling of content copied and pasted from the Web that uses a dark background when pasting onto a light page.
+
 ## Remove Author Information
 Removes all author information from the current page
 
