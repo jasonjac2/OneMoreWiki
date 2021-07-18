@@ -2,8 +2,7 @@
 Accessible from the context menu for both sections and notebooks, creates a zip file of all pages in the section or notebook, including all images and file attachments on each page. Also fixes the hyperlinks between pages within the context of the archive so the archive can stand on its own as a working directory of HTML files with live hyperlinks.
 
 ## Import
-Import Word (.docx) or PowerPoint (.pptx), OneNote (.one), or XML (.xml) by either appending content to the current page or creating a new page. 
-Additionally, for PowerPoint, each slide can be imported into its own page so you could use OneNote as a PowerPoint presenter by entering full screen mode and using Ctrl-PgDn to move to the next slide.
+Import Word (.docx), PowerPoint (.pptx), Markdown (.md), OneNote (.one), or XML (.xml) by either appending content to the current page or creating a new page. Additionally, for PowerPoint, each slide can be imported into its own page so you could use OneNote as a PowerPoint presenter by entering full screen mode and using Ctrl-PgDn to move to the next slide.
 
 > ![Import Dialog](images/Import.png)
 
