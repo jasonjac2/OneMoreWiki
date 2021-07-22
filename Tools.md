@@ -6,6 +6,9 @@ Import Word (.docx), PowerPoint (.pptx), Markdown (.md), OneNote (.one), or XML 
 
 > ![Import Dialog](images/Import.png)
 
+## Import Web Page
+Imports the content of a Web page given its URL. The content can be added as a new page in the current section, as a new child page of the current page, or appended to the content of the current page. Styles are generally not preserved due to the inherent limitations of OneNote.
+
 ## Export
 Export the current page or selected as HTML, Word, PDF, OneNote .one format, or internal OneNote XML.
 
