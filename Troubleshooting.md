@@ -10,6 +10,10 @@ Software doesn't have defects. Programmers do. And I'm no exception. So what sho
 
 1. Check that OneMore is registered correctly in the Windows System Registry. If you dare, you can poke around by following the settings listed on the [Developer Notes](Developer-Notes) page in this wiki. 
 
+1. If OneNote is installed for _all users_ then OneMore must also be installed for _all users_.
+
+1. If you're running on a 64-bit machine then either the 64-bit or 32-bit installer will work. But if you're running on a 32-bit machine then you must use the 32-bit installer. This is an installer issue; OneMore is built identically for both.
+
 1. If you see an error dialog that says something like "OneMore failed to connect to OneNote" then it's likely due to a bad OneNote configuration. Try to run the Office installer and choosing the Repair option. This will repair Office and OneNote and may clear up the connection issue.
 
 As always, if you need to submit a bug, please collect as much information as you can so that I can try to reproduce the problem. 
