@@ -57,12 +57,12 @@ Joins multiple selected consecutive lines into a single paragraph, eliminating s
 ## Paste Rich Text (Ctrl + Alt + V)
 Pastes rich text from the clipboard, preserving formatting and colors.
 
+## Restore Collapsed Outline
+Restores the collapsed date of all collapsible headings since the last Save Collapsed Outline command was invoked. If the state was never saved, all headings are expanded.
+
 ## Rotating Highlighter
 Uses a rotating array of colors to highlight selected text. Each time you select text and use this command, it will highlight the selected text using the next color in the array. Choose the color theme from the Settings dialog.
 > ![Rotating Highlighter](images/Rotating.png)
-
-## Restore Collapsed Outline
-Restores the collapsed date of all collapsible headings since the last Save Collapsed Outline command was invoked. If the state was never saved, all headings are expanded.
 
 ## Save Collapsed Outline
 Saves the current collapsed state of all collapsible headings; these are headings with indented content. This state can be restored at any time using the Restore Collapsed Outline command.
