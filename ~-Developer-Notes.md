@@ -13,7 +13,7 @@ Other Technical Articles
 * [Force Window as Top-Most](https://stackoverflow.com/questions/1309855/what-is-powerful-way-to-force-a-form-to-bring-front)
 * [High DPI and auto-scaling toolstrips](https://stackoverflow.com/questions/42838120/how-to-proper-auto-scale-toolstrip-in-net)
 * [Free Clipboard Viewer](https://www.freeclipboardviewer.com/)
-* [Introduction to the Office 2010 Backstage View for Developers (PDF saved)](https://msdn.microsoft.com/en-us/library/ee691833.aspx?f=255&MSPPError=-2147217396#odc_Office2010Introduction2OutSpaceUI_DescriptionsAttributesChildInformation)
+* [Introduction to the Office 2010 Backstage View for Developers](https://msdn.microsoft.com/en-us/library/ee691833.aspx?f=255&MSPPError=-2147217396#odc_Office2010Introduction2OutSpaceUI_DescriptionsAttributesChildInformation)
 
 ## Adding a New Command
 
@@ -36,7 +36,7 @@ Other Technical Articles
 
 1. Add a button control to the Properties\Ribbon.xml file
    1. Specify a unique id and label property
-   1. Choose an appropriate imageMso name from [imageMso List (PDF saved)](https://bert-toolkit.com/imagemso-list.html)
+   1. Choose an appropriate imageMso name from [imageMso List](https://bert-toolkit.com/imagemso-list.html)
    1. If an enabler is needed, specify the required one with a getEnabled property
    1. Set the onAction property to the &lt;name&gt;Cmd method added to AddIns.cs
 
