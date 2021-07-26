@@ -17,35 +17,47 @@ Other Technical Articles
 
 ## Adding a New Command
 
-1. Add a new class file to the Commands folder. Name the class with a recognizable name such as
-   TrimCommand and its file name should reflect the class name such as TrimCommand.cs.
+1. Add a new class file to the Commands folder.
+   1. Name the class with a descriptive name of the form <name>Command such as TrimCommand
+   1. the file name should match the class name such as TrimCommand.cs.
 1. The class should derive from the Command class and be marked _internal_
 1. The class should have a public constructor
 1. The class should have a public entry point method such as Execute()
-1. Add a new method to the AddinCommands.cs file to invoke the command, giving it a similar name
-   replacing Command with Cmd, such as TrimCmd and implemented as shown here:
+1. Add a new method to the AddinCommands.cs file to invoke the command
+   1. The name should be derived from the class, replacing Command with Cmd such as TrimCmd
 
-		public void TrimCmd(IRibbonControl control)
-		{
-			factory.GetCommand<TrimCommand>().Execute();
-		}
+      ```csharp
+      public async Task TrimCmd(IRibbonControl control)
+          => await factory.Run<TrimCommand>(false);
+      ```
 
-1. If the command needs a test to determine whether it should be enabled, use one of the existing
+1. If the enabled state of the command depends on the OneNote context then use one of the existing
    enablers or add one to the AddInsEnablers.cs file.
+
 1. Add a button control to the Properties\Ribbon.xml file
-   a. Specify a unique id and label property
-   a. Choose an appropriate imageMso name from [imageMso List (PDF saved)](https://bert-toolkit.com/imagemso-list.html)
-   b. If an enabler is needed, specify the required one with a getEnabled property
-   c. Set the onAction property to the &lt;name&gt;Cmd method added to AddIns.cs
-   
+   1. Specify a unique id and label property
+   1. Choose an appropriate imageMso name from [imageMso List (PDF saved)](https://bert-toolkit.com/imagemso-list.html)
+   1. If an enabler is needed, specify the required one with a getEnabled property
+   1. Set the onAction property to the &lt;name&gt;Cmd method added to AddIns.cs
+
+      ```xml
+      <button
+        id="ribClearBackgroundButton"
+        imageMso="PivotTableClearMenu"
+        getLabel="GetRibbonLabel"
+        getEnabled="GetBodyContext"
+        onAction="ClearBackgroundCmd"/>
+      ```   
 
 ## Rebuilding for 32-Bit Machines
 
-There is no technical different between the 32-bit build and 64-bit build of OneMore and its DLLs. But there are 32-bit and 64-bit installers for OneMore. On a Windows 64-bit machine, either installer will work with either 32-bit or 64-bit OneNote. But if you have a 32-bit machine, you need to use the 32-bit installer.
+There is no technical different between the 32-bit build and 64-bit build of OneMore and its DLLs.
+But there are 32-bit and 64-bit installers for OneMore. On a Windows 64-bit machine, either installer
+will work with either 32-bit or 64-bit OneNote. But if you have a 32-bit machine, you need to use the 32-bit installer.
 
 The Setup project will build as a 32-bit installer by default. There are two options to build a 64-bit installer:
 
-### Option 1
+### Option 1 - _Change Visual Studio Project Setting_
 
 The Setup project is configured for a 32-Bit installation of OneNote. If you have a 64-bit version
 then you should change the TargetPlatform property in the Setup project. _Note there is no need to
@@ -58,9 +70,9 @@ property x64 as shown here:
 
 Rebuild the Setup project and away you go!
 
-### Option 2
+### Option 2 - _Build.ps1_
 
-There is a PowerShell script named **build.ps1** in the solution folder that can build both the 32-bit
+There is a PowerShell script named **build.ps1** in the solution folder that builds both the 32-bit
 and the 64-bit installers. Prior to running this script, you must first configure your machine by
 running the Microsoft tool (here showing PowerShell syntax):
 
@@ -68,13 +80,16 @@ running the Microsoft tool (here showing PowerShell syntax):
     .\DisableOutOfProcBuild.exe
 
 This is provided specifically to allow later versions of VS to build vdproj projects from the
-command line.
+command line. It only needs to be run once on your machine.
 
 ## A Note on Debugging OneMore
 
-To start the debugging, add this to the code where you want to start the debugger:
+There are two ways to attach the Visual Studio debugger to OneMore. The first is to _instrument_
+the source code by adding a call to the Debugger.Launch method where you want to start the debugger:
 
-	System.Diagnostics.Debugger.Launch();
+   ```csharp
+   System.Diagnostics.Debugger.Launch();
+   ```
 
 This will cause Visual Studio to launch the _attach debugger_ dialog. This is most useful
 when you already have the OneMore solution open in Visual Studio so you can attach using
@@ -82,6 +97,11 @@ that VS instance with all of the source code and symbols ready to go.
 
 If the attach debugging dialog does not appear and instead a new instance of VS is opened then 
 [check this out from Microsoft about the Just in Time Debugger settings](https://docs.microsoft.com/en-us/visualstudio/debugger/debug-using-the-just-in-time-debugger).
+
+The second way is to attach the Visual Studio debugger directly to the running OneMore process.
+OneMore runs in a process named dllhost, of which there are many. To identify which instance of
+dllhost is the OneMore process, look in the OneMore log file. The process ID is stated in the
+first line of the log and is also the first number on each line in the log file.
 
 ## COM Registration
 
@@ -95,7 +115,8 @@ HKEY_CURRENT_USER\SOFTWARE\Classes\AppID{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}
 HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\OneNote\AddIns\River.OneMoreAddIn
 HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\River.OneMoreAddIn.dll
 ```
-The changes look similar to the following .reg file. Note that you cannot use the regasm.exe tool to register the add-in as it does not write all of the entries necessary for OneNote to properly load it.
+The changes look similar to the following .reg file. Note that you cannot use the regasm.exe tool to
+register the add-in as it does not write all of the entries necessary for OneNote to properly load it.
 
 ```Windows Registry Editor Version 5.00
 
