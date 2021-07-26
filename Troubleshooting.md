@@ -8,7 +8,7 @@ Software doesn't have defects. Programmers do. And I'm no exception. So what sho
 
 1. If OneMore doesn't load at all, the best thing to try is to uninstall it and then reinstall. If you don't already have the latest version, download it and give it a try. I try to keep up with defect tickets and address them as quickly as possible.
 
-1. Check that OneMore is registered correctly in the Windows System Registry. If you dare, you can poke around by following the settings listed on the [Developer Notes](Developer-Notes) page in this wiki. 
+1. Check that OneMore is registered correctly in the Windows System Registry. If you dare, you can poke around by following the settings listed on the [Developer Notes](~-Developer-Notes) page in this wiki. 
 
 1. If OneNote is installed for _all users_ then OneMore must also be installed for _all users_.
 
