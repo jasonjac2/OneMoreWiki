@@ -13,6 +13,13 @@ and add rows or columns as needed to make room for the new cells.
 _Note that if you move cells with formulas, the cell references in those formulas are not updated
 automatically by this command; you'll need to adjust those manually._
 
+## Paste Table Cells
+Paste copied cells into a table, overlaying cells rather than inserting a nested table as OneNote does by default.
+The target table is expanded with extra rows or columns as needed. All cell formatting, including cell shading, is preserved.
+This is useful for moving cells around within a table or copying cells from one table to another. 
+
+When copying cells with Ctrl-C and pasting back into the same table, the old cells are not erased. If your intention is to _move_ the cells, leaving blank cells behind, then instead use Ctrl-X to copy and cut prior to running this paste command.
+
 ## Split Table
 Splits the current table starting at the row containing the input cursor. Optionally, the header can be duplicated in the new table and columns in both can be fixed to their current widths so the two tables remain aligned.
 
