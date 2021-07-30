@@ -20,6 +20,8 @@ This is useful for moving cells around within a table or copying cells from one 
 
 When copying cells with Ctrl-C and pasting back into the same table, the old cells are not erased. If your intention is to _move_ the cells, leaving blank cells behind, then instead use Ctrl-X to copy and cut prior to running this paste command.
 
+Note, you may notice the OneNote windows flashing once when this command is run. This is because OneMore needs to use a temporary page to do some of its work and you're seeing it navigate to that page and then back to your current page.
+
 ## Split Table
 Splits the current table starting at the row containing the input cursor. Optionally, the header can be duplicated in the new table and columns in both can be fixed to their current widths so the two tables remain aligned.
 
