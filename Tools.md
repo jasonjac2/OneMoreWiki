@@ -1,3 +1,8 @@
+## Analyze Data Sizes
+Generate a report, as a new page in this current section, showing how much disk space is consumed by OneNote notebooks, sections, and pages. Shows a detailed breakdown of image sizes and file attachments embedded on pages along with an indication if the source of a file attachment no longer exists. 
+
+_Note that the detailed page analysis, especially when done over all sections in a notebook, can take some time to generate and result in a very large report page._
+
 ## Archive
 Accessible from the context menu for both sections and notebooks, creates a zip file of all pages in the section or notebook, including all images and file attachments on each page. Also fixes the hyperlinks between pages within the context of the archive so the archive can stand on its own as a working directory of HTML files with live hyperlinks.
 
