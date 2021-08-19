@@ -3,6 +3,8 @@ Generate a report, as a new page in this current section, showing how much disk 
 
 Each OneNote notebook maintains its own recycle bin. This can be cleared from the OneNote History menu.
 
+_The backup feature must be enabled in OneNote options and run at least once in order for the report to show useful information._
+
 _Note that the detailed page analysis, especially when done over all sections in a notebook, can take some time to generate and result in a very large report page._
 
 ## Archive
