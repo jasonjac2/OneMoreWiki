@@ -12,6 +12,9 @@ text in that footnote to your heart's desire. Text colors are based on the page 
 Note that footnotes are hyperlinked so you jump from the content body down to the text
 of a footnote or back up again to the content that references a particular footnote.
 
+## Finish Bidirectional Link
+This is step two of two in creating a bidirectional link between phrases on two pages or phrases in separate paragraphs on a single page. Once an anchor is set using the Start Bidirectional Link command, select a second word or phrase in a one paragraph on a second page or in a different paragraph than the anchor and run Finish Bidirectional Link. The anchor phrase is hyperlinked to the final phrase and vice versa.
+
 ## Insert QR Code
 Converts selected text to a QR code and inserts the QR image into a new paragraph following the selected text. QR codes provide a convenient way to share passwords, Web addresses, any other data (up to 2000 characters).
 
@@ -51,3 +54,6 @@ your changes.
 For example, given this URL on a OneNote page: [https://github.com/](https://github.com/)
 
 it would be replaced with its hyperlinked title: [GitHub](https://github.com)
+
+## Start Bidirectional Link
+This is step of two in creating a bidirectional link between phrases on two pages or phrases in separate paragraphs on a single page. Select a word or phrase in a one paragraph as an anchor point and run Start Bidirectional Link. Complete the linking by running the Finish Bidirectional Link command
