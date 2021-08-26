@@ -3,7 +3,7 @@ Generate a report, as a new page in this current section, showing how much disk 
 
 Each OneNote notebook maintains its own recycle bin. This can be cleared from the OneNote History menu.
 
-_The backup feature must be enabled in OneNote options and run at least once in order for the report to show useful information._
+Notebooks can be stored locally in the default OneNote data folder. Or they can be stored remotely in the cloud on OneDrive. Local notebooks are reported directly from the default data folder. Remote notebooks can only be analyzed by looking at their local backup copies as configured in the OneNote Options. _The backup feature must be enabled in OneNote options and run at least once in order for the report to show useful information for remote notebooks._
 
 _Note that the detailed page analysis, especially when done over all sections in a notebook, can take some time to generate and result in a very large report page._
 
