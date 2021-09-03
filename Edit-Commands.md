@@ -67,4 +67,9 @@ Uses a rotating array of colors to highlight selected text. Each time you select
 ## Save Collapsed Outline
 Saves the current collapsed state of all collapsible headings; these are headings with indented content. This state can be restored at any time using the Restore Collapsed Outline command.
 
+## Select Text with Similar Formatting
+Selects all content with the same style treatment as the selected text. The selected text is either inferred from the insertion cursor or an explicitly selected region. Once selected, one or sometimes more commands can be executed to affect the selected text ranges. For example, you could select all Heading 2 headings and change the color and make them italic.
+
+Note that OneNote does not allow multiple non-contiguous selection ranges within a single paragraph. This may result in selecting only the last range in the paragraph that meets the style criteria. This is the way that OneNote works so a little extra manual work may be needed to make additional edits.
+
 
