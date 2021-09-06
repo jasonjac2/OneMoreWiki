@@ -12,6 +12,15 @@ text in that footnote to your heart's desire. Text colors are based on the page 
 Note that footnotes are hyperlinked so you jump from the content body down to the text
 of a footnote or back up again to the content that references a particular footnote.
 
+## Create Page Map
+Generates a report showing all pages that contain links to other pages. This can be
+scope to the current section, current notebook, or all notebooks. The report is produced
+as a new page in the current section.
+
+By default, links are scanned within the chosen scope, e.g. just the current section.
+If you want to include links beyond the current scope, check the _Include cross-notebook
+references_ checkbox. Depending on the number of pages and notebooks, this can be time consuming.
+
 ## Finish Bidirectional Link
 This is step two of two in creating a bidirectional link between phrases on two pages or phrases in separate paragraphs on a single page. Once an anchor is set using the Start Bidirectional Link command, select a second word or phrase in a one paragraph on a second page or in a different paragraph than the anchor and run Finish Bidirectional Link. The anchor phrase is hyperlinked to the final phrase and vice versa.
 
@@ -21,18 +30,13 @@ Converts selected text to a QR code and inserts the QR image into a new paragrap
 ## Link References To This Page
 Creates bi-directional reference links between the current page and pages that reference this page by its title. All instances of the page title on referring pages are converted to hyperlinks back to this page and a _Linked References_ sections is appended to this page with links back to all referring pages. If the current page title has a date prefix of the form yyyy-mm-dd then that is ignored and the remainder of the title is used to search for back references.
 
-## Map Linked Pages
-Generates a report showing all pages that contain links to other pages. This can be
-scope to the current section, current notebook, or all notebooks. The report is produced
-as a new page in the current section.
-
-By default, links are scanned within the chosen scope, e.g. just the current section.
-If you want to include links beyond the current scope, check the _Include cross-notebook
-references_ checkbox. Depending on the number of pages and notebooks, this can be time consuming.
-
 ## Refresh Footnotes
 Refreshes all footnote references on the page so their numbers are sequential on the page. 
 This is useful when moving content up or down the page.
+
+## Refresh Page References
+Updates all pages in scope that reference the current page, refreshing the displayed
+title of the current page with any changes made after the initial hyperlinks were set.
 
 ## Remove Footnote (Ctrl + Shift + F)
 And if you no longer want a footnote, place the cursor over the label or over the footnote
