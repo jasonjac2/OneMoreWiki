@@ -7,6 +7,8 @@ The Fill Across and Fill Down commands will increment the values in the lead cel
 * Counting Strings such as "Person 1" will be incremented to populated "Person 2", "Person 3", "Person 4", etc.
 * Dates of various forms will be recognized and increment by adding 1 day or the different in days between the first and second cell
 
+> ![Fill-Down Table](images/FillTable.gif)
+
 ## Convert Text to Table
 Converts selected text to a table. Text must be delimited by a comma, space, or other special character so the command can detect columns.
 
