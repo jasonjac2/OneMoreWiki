@@ -6,6 +6,15 @@ The Fill Across and Fill Down commands will increment the values in the lead cel
 * Numbers including integers, decimals, and currencies, incrementing by 1 or the integer difference of the first and second cell
 * Counting Strings such as "Person 1" will be incremented to populated "Person 2", "Person 3", "Person 4", etc.
 * Dates of various forms will be recognized and increment by adding 1 day or the different in days between the first and second cell
+  * Date formats include these culture-specific formats (change per culture)
+    * M/d/YYYY
+    * MMMM d
+    * dddd, MMM d, yyyy
+    * MMM yyyy
+  * And these specific formats
+    * d-MMM-yyyy
+    * MMM d, yyyy
+    * MMM d
 
 > ![Fill-Down Table](images/FillTable.gif)
 
