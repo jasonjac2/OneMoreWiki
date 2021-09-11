@@ -1,3 +1,12 @@
+## Copy and Fill Commands
+The Copy Across and Copy Down commands will duplicate the contents of the lead cells in the selection. For example, if you select one or more cells in the first row and choose Copy Down, the cell values, style, and shading in that row will be copied down the entire table. Restrict the scope by selecting the first cell to copy and subsequent cells to fill, either vertically or horizontally as appropriate.
+
+The Fill Across and Fill Down commands will increment the values in the lead cells in the selection. For example, if the selected cell contains a number, that number will be incremented and added to all subsequent cells. If the second cell is populated then it will compare the second and first cell, determine the difference, and use that to increment the value. The Fill commands work for:
+
+* Numbers including integers, decimals, and currencies, incrementing by 1 or the integer difference of the first and second cell
+* Counting Strings such as "Person 1" will be incremented to populated "Person 2", "Person 3", "Person 4", etc.
+* Dates of various forms will be recognized and increment by adding 1 day or the different in days between the first and second cell
+
 ## Convert Text to Table
 Converts selected text to a table. Text must be delimited by a comma, space, or other special character so the command can detect columns.
 
