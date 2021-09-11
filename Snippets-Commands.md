@@ -2,6 +2,9 @@ Snippets are bits of contents that can be inserted onto a page and provide repea
 
 _To learn how to save custom snippets of content, refer to the [Favorites](Favorites) page_
 
+## Breadcrumb
+Adds a breadcrumb at the top of a page specifying its hierarchical location in the notebook. If the page is moved, this command will update the breadcrumb or re-add it if it was subsequently removed.
+
 ## Horizontal Line
 Adds a horizontal line below the current paragraph
 
