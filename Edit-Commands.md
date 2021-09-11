@@ -75,4 +75,5 @@ Selects all content with the same style treatment as the selected text. The sele
 
 Note that OneNote does not allow multiple non-contiguous selection ranges within a single paragraph. This may result in selecting only the last range in the paragraph that meets the style criteria. This is the way that OneNote works so a little extra manual work may be needed to make additional edits.
 
+> ![Selet Similar Formatting](images/SelectStyle.gif)
 
