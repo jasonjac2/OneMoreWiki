@@ -10,7 +10,6 @@ The Fill Across and Fill Down commands will increment the values in the lead cel
     * M/d/YYYY
     * MMMM d
     * dddd, MMM d, yyyy
-    * MMM yyyy
   * And these specific formats
     * d-MMM-yyyy
     * MMM d, yyyy
