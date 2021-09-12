@@ -57,8 +57,6 @@ commands also have their own key bindings. See also OneNote's
 |             | Decrease font size            | Ctrl + Alt + Minus
 | [Footnotes](../wiki/Footnote-Commands) | Add footnote | Ctrl + Alt + F
 |             | Remove footnote               | Ctrl + Shift + F
-| [Formulas](../wiki/Table-Commands) | Add/Edit formula | F5
-|             | Recalculate formulas          | Shift + F5
 | [Search](../wiki/Search-Commands) | Search and Replace | Ctrl + H
 |             | Search and Move/Copy          | Alt + F
 |             | Tag page                      | Alt + T
@@ -67,6 +65,9 @@ commands also have their own key bindings. See also OneNote's
 |             | Insert horizontal line        | Shift + Alt + Minus
 |             | Insert double horizontal line | Shift + Alt + Equals
 |             | Insert Sortable Date          | Ctrl + Shift + D
+| [Tables](../wiki/Table-Commands) | Add/Edit formula | F5
+|             | Recalculate formulas          | Shift + F5
+|             | Fill Down                     | Ctrl + D
 | [Tools](../wiki/Tools) | Show XML                      | Ctrl + Shift + Alt + X
 |             | Dump diagnostic info to log   | F8
 |             | Clear the diagnostic log file | Ctrl + F8
