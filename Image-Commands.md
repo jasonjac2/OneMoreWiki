@@ -4,11 +4,15 @@ into a one-row, one-column table and centering the word "Caption" below the imag
 course you should edit immediately. If your custom styles has a style named exactly "Caption"
 then that style will be applied, otherwise, a default caption style is used.
 
-## Crop
-Opens an image editing window that allows you to precisely crop and image
+## Crop and Rotate
+Opens an image editing window that allows you to precisely crop an image
 by selecting a region, moving that region around the image, and even resizing the region.
+Press Ctrl + A to select the entire image. Press Cltr + D to deselect the current selection region.
 
 > <img src="images/CropImage.png" width="568" />
+
+This dialog also includes a rotate feature that can rotate an image to any angle, beyond just
+the 90 degree increments built into OneNote.
 
 ## Resize
 Resize images on the page. If one image is selected then you can resize by percentage,
