@@ -24,7 +24,7 @@ references_ checkbox. Depending on the number of pages and notebooks, this can b
 ## Embed Page and Update Embedded Pages
 The _Embed Page_ command embeds the entire contents of a selected page into the current page at the cursor location. The embedded content is wrapped in a single-cell table with a visible border to indicate that it is embedded content. Click the [Refresh] link in the upper right of the table cell to refresh the embedded contents and synchronize with any changes from the source page. 
 
-The _Update Embedded_ Pages command will refresh and resynchronize the content of all embedded pages on the current page.
+The _Update Embedded Pages_ command will refresh and resynchronize the content of all embedded pages on the current page.
 
 ## Finish Bidirectional Link
 This is step two of two in creating a bidirectional link between phrases on two pages or phrases in separate paragraphs on a single page. Once an anchor is set using the Start Bidirectional Link command, select a second word or phrase in a one paragraph on a second page or in a different paragraph than the anchor and run Finish Bidirectional Link. The anchor phrase is hyperlinked to the final phrase and vice versa.
