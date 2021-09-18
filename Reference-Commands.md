@@ -22,7 +22,7 @@ If you want to include links beyond the current scope, check the _Include cross-
 references_ checkbox. Depending on the number of pages and notebooks, this can be time consuming.
 
 ## Embed Page and Update Embedded Pages
-The _Embed Page_ command embeds the entire contents of a selected page into the current page at the cursor location. The embedded content is wrapped in a single-cell table with a visible border to indicate that it is embedded content. Click the [Refresh] link in the upper right of the table cell to refresh the embedded contents and synchronize with any changes from the source page. 
+The _Embed Page_ command embeds the contents of a selected page into the current page at the cursor location. This will only embed the first outline on the page; outlines are the boxes that appear and let you move content around the page. The embedded content is wrapped in a single-cell table with a visible border to indicate that it is embedded content. Click the [Refresh] link in the upper right of the table cell to refresh the embedded contents and synchronize with any changes from the source page. 
 
 The _Update Embedded Pages_ command will refresh and resynchronize the content of all embedded pages on the current page.
 
