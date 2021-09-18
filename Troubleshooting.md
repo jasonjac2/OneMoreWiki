@@ -19,3 +19,23 @@ Software doesn't have defects. Programmers do. And I'm no exception. So what sho
 As always, if you need to submit a bug, please collect as much information as you can so that I can try to reproduce the problem. 
 
 Thank you for your patience and support.
+
+# OneNote Specific Problems
+
+## Search is Flaky
+Some OneMore commands, such as the _Link References_ command, use the internal search capabilities of OneNote. This is based on the Windows Search engine which indexes content on your computer. Sometimes it takes a while for the index to synchronize with recent changes in your notebooks. Sometimes it doesn't synchronize at all which means you don't find what you're looking for, or commands like _Link References_ don't seem to work.
+
+To correct this, there are two possibilities. First, you can try rebuilding the Windows Search index for OneNote.
+
+1. Open the Windows Start menu and type _Indexing Options_ and press Enter
+1. Select _Microsoft OneNote_ and click the _Advanced_ button
+1. Click the _Rebuild_ button next to "Delete and rebuild index"
+1. Press OK. This may take some time (hours maybe)
+
+Second, if that doesn't seem to work, you can delete the OneNote cache
+
+1. Close OneNote
+1. Open Windows File Explorer
+1. Navigate to the cache folder, something like C:\Users\_username_\AppData\Local\Microsoft\OneNote\16.0\cache
+1. Delete everything in this folder
+1. Open OneNote. It will reload all of your notebooks, sections, and pages. This will appear slow because it's rebuilding that cache folder.
