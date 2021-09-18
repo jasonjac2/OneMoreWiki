@@ -28,7 +28,11 @@ This is step two of two in creating a bidirectional link between phrases on two 
 Converts selected text to a QR code and inserts the QR image into a new paragraph following the selected text. QR codes provide a convenient way to share passwords, Web addresses, any other data (up to 2000 characters).
 
 ## Link References To This Page
-Creates bi-directional reference links between the current page and pages that reference this page by its title. All instances of the page title on referring pages are converted to hyperlinks back to this page and a _Linked References_ sections is appended to this page with links back to all referring pages. If the current page title has a date prefix of the form yyyy-mm-dd then that is ignored and the remainder of the title is used to search for back references.
+Finds all pages that mention the title of the current page and creates bi-directional reference links between this page and pages that reference it. All instances of the page title on referring pages are converted to hyperlinks back to this page and a _Linked References_ paragraph is appended to this page with links back to all referring pages. If the current page title has a date prefix of the form yyyy-mm-dd then that is ignored and the remainder of the title is used to search for back references.
+
+Clicking the [Refresh] link next to the _Linked References_ title will rescan pages and rebuild the paragraph.
+
+This uses the built-in OneNote search engine. This engine is notoriously inaccurate. If you know there are pages that reference this page but they are not included in the _Linked References_ section then consider either rebuilding the Windows Search index or deleting the OneNote cache.
 
 ## Refresh Footnotes
 Refreshes all footnote references on the page so their numbers are sequential on the page. 
