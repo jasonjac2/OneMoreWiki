@@ -41,3 +41,6 @@ This will create new pages in the current section. If splitting on page links, i
 
 ## Strikethrough Completed To Do Tags
 Toggles strikethrough text next to all completed/incompleted tags
+
+## Word Count
+Displays the number of words on the current page or in the selected region. The word count may differ - be slightly lower - than the word count reported by Microsoft Word because Word counts things like URLs as a single word but OneMore separates the individual words in the URL. For example, Word reports one word in "https://github.com/OneMore" whereas OneMore counts it as four words.
