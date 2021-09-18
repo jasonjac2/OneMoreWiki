@@ -37,7 +37,7 @@ Finds all pages that mention the title of the current page and creates bi-direct
 
 Clicking the [Refresh] link next to the _Linked References_ title will rescan pages and rebuild the paragraph.
 
-This uses the built-in OneNote search engine. This engine is notoriously inaccurate. If you know there are pages that reference this page but they are not included in the _Linked References_ section then consider either [rebuilding the Windows Search index or deleting the OneNote cache\(Troubleshooting#search-is-flaky).
+This uses the built-in OneNote search engine. This engine is notoriously inaccurate. If you know there are pages that reference this page but they are not included in the _Linked References_ section then consider either [rebuilding the Windows Search index or deleting the OneNote cache](Troubleshooting#search-is-flaky).
 
 ## Refresh Footnotes
 Refreshes all footnote references on the page so their numbers are sequential on the page. 
