@@ -20,6 +20,9 @@ from the Extra menu or by right-clicking a section.
 ## Insert Pronunciation
 Inserts the "ruby text" pronunciation of selected words. This uses an online service that supports over a dozen languages.
 
+## Insert Timer Value (F2)
+Inserts the current value shown in the timer window. The timer window must be started using the Start Timer command.
+
 ## Merge pages
 Merges two or more pages into a single page. If every selected page contains exactly one outline each then the content of the outlines is concatenated to the outline in the target page, resulting in a single outline. However, if at least one page has multiple outlines then all outlines are appended vertically on the target page to preserve formatting and relative positioning. 
 
@@ -38,6 +41,11 @@ notebook recursively.
 Splits the current page at each Heading1 or page links. Also, these can be filtered by an optional tag. 
 
 This will create new pages in the current section. If splitting on page links, if the linked pages exists, it must exist in the current section or it will not be found and a new page will be created in the current section; if it is found then the content will be appended to that page. 
+
+## Start Timer (Alt + F2)
+Starts and opens a visual timer. This small window will first appear in the upper right corner of the display and immediately starts counting seconds, minutes, and hours. There are three controls on the window: copy the current value to the clipboard, restart the timer from zero, and close the timer. The window can be moved but is limited to the current desktop window. 
+
+The current value shown in the timer window can easily be inserted into the body of the open page by using the Insert Timer command.
 
 ## Strikethrough Completed To Do Tags
 Toggles strikethrough text next to all completed/incompleted tags
