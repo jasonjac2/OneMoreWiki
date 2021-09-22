@@ -68,6 +68,8 @@ commands also have their own key bindings. See also OneNote's
 | [Tables](../wiki/Table-Commands) | Add/Edit formula | F5
 |             | Recalculate formulas          | Shift + F5
 |             | Fill Down                     | Ctrl + D
-| [Tools](../wiki/Tools) | Show XML                      | Ctrl + Shift + Alt + X
+| [Extras](../wiki/Extras) | Start Timer | Alt + F2
+|             | Insert Timer Value            | F2
+| [Tools](../wiki/Tools) | Show XML | Ctrl + Shift + Alt + X
 |             | Dump diagnostic info to log   | F8
 |             | Clear the diagnostic log file | Ctrl + F8
