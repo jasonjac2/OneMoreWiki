@@ -45,6 +45,8 @@ This will create new pages in the current section. If splitting on page links, i
 ## Start Timer (Alt + F2)
 Starts and opens a visual timer. This small window will first appear in the upper right corner of the display and immediately starts counting seconds, minutes, and hours. There are three controls on the window: copy the current value to the clipboard, restart the timer from zero, and close the timer. The window can be moved but is limited to the current desktop window. 
 
+> ![Timer](images/TimerWindow.png)
+
 The current value shown in the timer window can easily be inserted into the body of the open page by using the Insert Timer command.
 
 ## Strikethrough Completed To Do Tags
