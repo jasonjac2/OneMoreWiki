@@ -6,6 +6,7 @@ Customizes the general behavior of OneMore
 * Enable dynamic menu settings. OneMore attempts to enable/disable command menu items based on the current focus. This can cause OneNote to become
   sluggish if commands are added to the Quick Access Toolbar. Disable this option if you've added OneMore command to the Quick Access Toolbar if
   you experience sluggish responsiveness.
+* Check for OneMore updates when OneNote starts. This will silently check for OneMore updates. If there are no new updates, nothing will appear. If there is a new update, a dialog is displayed immediately after OneNote starts showing the new version and an option to update and restart OneNote
 
 ## Context Menu Options
 Many of the OneMore commands can be added to the context menu that appears when you right-click on the body of a page.
