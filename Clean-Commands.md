@@ -1,6 +1,8 @@
 ## Change Sentence Spacing
 Reformats the current page to consistently set spacing between sentences to either one or two spaces. 
 
+Note that this may not be perfect! It looks for periods (.), exclamation marks (!), and semi-colons (;) that follow alpha-numeric strings. This means it may change the spacing between abbreviation such as "H. G. Wells!"
+
 ## Clear Background Color
 Clears the highlight background of text or the shading of table cells and also resets the text color to maintain readability against the default background. This is useful for quickly resetting the styling of content copied and pasted from the Web that uses a dark background when pasting onto a light page. Affects either the selected content or the entire page if there is no selected region.
 
