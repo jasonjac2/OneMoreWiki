@@ -20,6 +20,14 @@ As always, if you need to submit a bug, please collect as much information as yo
 
 Thank you for your patience and support.
 
+# OneNote Installer Problems
+If the installer fails and the cause isn't clearly evident, enable MSI logging as explained in [this article](https://docs.microsoft.com/en-US/troubleshoot/windows-client/application-management/enable-windows-installer-logging#fixit4me). Simply put, open the registry by using Regedit.exe, and then create the following subkey and keys:
+
+* Path: `HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer`
+* Type: Reg_SZ
+* Value: Logging
+* Data: voicewarmupx
+
 # OneNote Specific Problems
 
 ## Search is Flaky
