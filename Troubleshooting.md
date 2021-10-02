@@ -28,6 +28,8 @@ If the installer fails and the cause isn't clearly evident, enable MSI logging a
 * Value: Logging
 * Data: voicewarmupx
 
+When the installer runs, it will generate a log file in the %TEMP% folder named something like MSI1234.log
+
 # OneNote Specific Problems
 
 ## Search is Flaky
