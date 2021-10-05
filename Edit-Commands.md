@@ -77,3 +77,6 @@ Note that OneNote does not allow multiple non-contiguous selection ranges within
 
 > ![Selet Similar Formatting](images/SelectStyle.gif)
 
+## Sort Lists
+Sorts the current list or all lists on the page, with options to sort nested lists and numeric lists.
+
