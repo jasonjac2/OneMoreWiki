@@ -19,6 +19,11 @@ The highlighting is not as complete as you might find in VS or VSCode but then O
 
 If you're so inclined to add enhancements or define a new language, please submit a pull request.
 
+## Proofing Language
+This menu is only visible if you've configured Office with two or more proofing languages. This can be done in any Office application including OneNote by going to the Options dialog and then the Languages sheet.
+
+Sets the proofing language of selected text or the entire page to the chosen language. This can be added to the context menu.
+
 ## Collapse Outlining
 Collapses all headings with indented content.
 
