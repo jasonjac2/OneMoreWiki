@@ -53,7 +53,7 @@ commands also have their own key bindings. See also OneNote's
 |             | Paste Rich Text               | Ctrl + Alt + V
 |             | To uppercase                  | Ctrl + Shift + Alt + U
 |             | To lowercase                  | Ctrl + Shift + U
-|             | Increase font size            | Ctrl + Alt + Plus
+|             | Increase font size<sup>1</sup>            | Ctrl + Alt + Plus
 |             | Decrease font size            | Ctrl + Alt + Minus
 | [Footnotes](../wiki/Footnote-Commands) | Add footnote | Ctrl + Alt + F
 |             | Remove footnote               | Ctrl + Shift + F
@@ -73,3 +73,5 @@ commands also have their own key bindings. See also OneNote's
 | [Tools](../wiki/Tools) | Show XML | Ctrl + Shift + Alt + X
 |             | Dump diagnostic info to log   | F8
 |             | Clear the diagnostic log file | Ctrl + F8
+
+<sup>1</sup>Disabled for FIGS and UK input keyboards
