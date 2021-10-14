@@ -13,6 +13,8 @@ Many of the OneMore commands can be added to the context menu that appears when 
 
 Note that if you choose one of the "menu" options such as "Edit Menu" then that will be added as a fly-out menu and include all Edit Menu items. But if you choose one of the sub-items, such as "To lowercase" then that item will be added as a top-level context menu item. If you happen to select both then both will be shown, possibly duplicating items.
 
+Note that the Proofing Language option is only available if you've configured Office with two or more proofing languages.
+
 > ![Context Menu Options](images/ContextMenuSheet.png)
 
 ## Favorites Manager
