@@ -195,8 +195,14 @@ You can avoid that by manually altering the Registry setting to point to the pro
 using something like this .reg file:
 
 	Windows Registry Editor Version 5.00
-	[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32]
-	"CodeBase"="C:\\River\\OneMore\\OneMore\\OneMoreAddIn\\bin\\x86\\Debug\\River.OneMoreAddIn.dll"
+	[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32]
+	"CodeBase"="C:\\Github\\OneMore\\OneMore\\bin\\x86\\Debug\\River.OneMoreAddIn.dll"
+
+And for the protocol handler:
+
+	Windows Registry Editor Version 5.00
+	[HKEY_CLASSES_ROOT\onemore\shell\open\command]
+	@="\"C:\\Github\\OneMore\\OneMoreProtocolHandler\\bin\\Debug\\OneMoreProtocolHandler.exe\" %1 %2 %3"
 
 ### The COM Interface Timeout
 
