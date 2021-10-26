@@ -12,7 +12,7 @@ Imports the content of a Web page given its URL. The content can be added as a n
 The second mode is to import the Web page as a series of static images. This will preserve most styling and layout of the page. It does this by internally printing the page to a PDF and then importing each page of the PDF as an image. This can be a time consuming process, taking up to 30 seconds, so give it time. The first time this mode is used, OneMore downloads a local copy of the chromium browser so this will take some extra time. Subsequent uses should be faster however.
 
 ## Export
-Export the current page or selected as HTML, Word, PDF, OneNote .one format, or internal OneNote XML.
+Export the current page or selected as HTML, Word, PDF, Markdown, OneNote .one format, or internal OneNote XML.
 
 If you choose HTML, you will be given the option to export each page as a single .htm file in the specified folder or archive each page into its own sub-folder, optionally with copies of the file attachments on each page.
 
