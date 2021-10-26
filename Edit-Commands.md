@@ -24,12 +24,6 @@ This menu is only visible if you've configured Office with two or more proofing 
 
 Sets the proofing language of selected text or the entire page to the chosen language. This can be added to the context menu.
 
-## Collapse Outlining
-Collapses all headings with indented content.
-
-## Expand Outlining
-Expands all headings with indented content.
-
 ## Increase Font Size (Ctrl + Alt + Plus)
 Increases the font size of all text on the entire page. To increase the font size of selected text, use the built-in OneNote shortcut Ctrl+Shift+>
 
@@ -62,15 +56,9 @@ Joins multiple selected consecutive lines into a single paragraph, eliminating s
 ## Paste Rich Text (Ctrl + Alt + V)
 Pastes rich text from the clipboard, preserving formatting and colors.
 
-## Restore Collapsed Outline
-Restores the collapsed date of all collapsible headings since the last Save Collapsed Outline command was invoked. If the state was never saved, all headings are expanded.
-
 ## Rotating Highlighter
 Uses a rotating array of colors to highlight selected text. Each time you select text and use this command, it will highlight the selected text using the next color in the array. Choose the color theme from the Settings dialog.
 > ![Rotating Highlighter](images/Rotating.png)
-
-## Save Collapsed Outline
-Saves the current collapsed state of all collapsible headings; these are headings with indented content. This state can be restored at any time using the Restore Collapsed Outline command.
 
 ## Select All Images
 Select all images on the page. This can be used, for example, to delete all images quickly and easily.
