@@ -55,7 +55,7 @@ commands also have their own key bindings. See also OneNote's
 |             | To lowercase                  | Ctrl + Shift + U
 |             | Increase font size<sup>1</sup>            | Ctrl + Alt + Plus
 |             | Decrease font size            | Ctrl + Alt + Minus
-| [Footnotes](../wiki/Footnote-Commands) | Add footnote | Ctrl + Alt + F
+| [Footnotes](../wiki/Reference-Commands) | Add footnote | Ctrl + Alt + F
 |             | Remove footnote               | Ctrl + Shift + F
 | [Search](../wiki/Search-Commands) | Search and Replace | Ctrl + H
 |             | Search and Move/Copy          | Alt + F
