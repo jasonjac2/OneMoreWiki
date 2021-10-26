@@ -3,8 +3,8 @@ OneMore is an add-in for Microsoft OneNote 2019 that adds powerful yet simple an
 * Integrated with the OneNote ribbon, [context menus](#ctxmenus), and [keyboard shortcuts](#keys) for easy access
 * [Customize the Text context menu](Settings) to add OneMore commands or a a custom search engine
 * Apply [colorized syntax highlighting](Edit-Commands) to snippets of source code
-* Create/edit/apply [custom styles](Custom-Styles) with advanced options
-* Manage menu of [Favorites](Favorites) for one-click link to your most referenced pages
+* Create/edit/apply [custom styles](Custom-Styles-and-Favorites) with advanced options
+* Manage menu of [Favorites](Custom-Styles-and-Favorites#Favorites) for one-click link to your most referenced pages
 * Add [formulas](Table-Commands) to table cell using Excel-like expressions
 
 *Want more from OneMore? OneMore has more...* Click the pages on the right to discover all the gritty details ---->
