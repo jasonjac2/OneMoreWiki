@@ -70,8 +70,9 @@ commands also have their own key bindings. See also OneNote's
 |             | Fill Down                     | Ctrl + D
 | [Extras](../wiki/Extra-Commands) | Start Timer | Alt + F2
 |             | Insert Timer Value            | F2
+|             | Add or Update Reminder        | F8
 | [Tools](../wiki/Tools) | Show XML | Ctrl + Shift + Alt + X
-|             | Dump diagnostic info to log   | F8
+|             | Dump diagnostic info to log   | Shift + F8
 |             | Clear the diagnostic log file | Ctrl + F8
 
 <sup>1</sup>Disabled for FIGS and UK input keyboards
