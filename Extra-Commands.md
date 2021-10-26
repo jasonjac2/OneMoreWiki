@@ -1,3 +1,12 @@
+## Analyze Data Sizes
+Generate a report, as a new page in this current section, showing how much disk space is consumed by OneNote notebooks and their recycle bins, sections, and pages. Shows orphaned notebook backups that are no longer opened in OneNote. Shows the size of the OneNote internal cache. Shows a detailed breakdown of image sizes and file attachments embedded on pages along with an indication if the source of a file attachment no longer exists. 
+
+Each OneNote notebook maintains its own recycle bin. This can be cleared from the OneNote History menu.
+
+Notebooks can be stored locally in the default OneNote data folder. Or they can be stored remotely in the cloud on OneDrive. Local notebooks are reported directly from the default data folder. Remote notebooks can only be analyzed by looking at their local backup copies as configured in the OneNote Options. _The backup feature must be enabled in OneNote options and run at least once in order for the report to show useful information for remote notebooks._
+
+_Note that the detailed page analysis, especially when done over all sections in a notebook, can take some time to generate and result in a very large report page._
+
 ## Collapse Pages
 Collapses the page hierarchy to see only top-level pages.
 
