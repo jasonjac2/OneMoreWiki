@@ -31,3 +31,6 @@ Splits the current page at each Heading1 or page links. Also, these can be filte
 
 This will create new pages in the current section. If splitting on page links, if the linked pages exists, it must exist in the current section or it will not be found and a new page will be created in the current section; if it is found then the content will be appended to that page. 
 
+## Word Count
+Displays the number of words on the current page or in the selected region. The word count may differ - be slightly lower - than the word count reported by Microsoft Word because Word counts things like URLs as a single word but OneMore separates the individual words in the URL. For example, Word reports one word in "https://github.com/OneMore" whereas OneMore counts it as four words.
+
