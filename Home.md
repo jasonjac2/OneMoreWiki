@@ -69,7 +69,8 @@ commands also have their own key bindings. See also OneNote's
 | [Tables](../wiki/Table-Commands) | Add/Edit formula | F5
 |             | Recalculate formulas          | Shift + F5
 |             | Fill Down                     | Ctrl + D
-| [Extras](../wiki/Extra-Commands) | Start Timer | Alt + F2
+| [Extras](../wiki/Extra-Commands) | Add or Update Reminder | F8
+|             | Start Timer                   | Alt + F2
 |             | Insert Timer Value            | F2
 |             | Add or Update Reminder        | F8
 | [Tools](../wiki/Tools) | Show XML | Ctrl + Shift + Alt + X
