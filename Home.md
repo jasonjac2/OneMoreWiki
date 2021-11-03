@@ -72,7 +72,6 @@ commands also have their own key bindings. See also OneNote's
 | [Extras](../wiki/Extra-Commands) | Add or Update Reminder | F8
 |             | Start Timer                   | Alt + F2
 |             | Insert Timer Value            | F2
-|             | Add or Update Reminder        | F8
 | [Tools](../wiki/Tools) | Show XML | Ctrl + Shift + Alt + X
 |             | Dump diagnostic info to log   | Shift + F8
 |             | Clear the diagnostic log file | Ctrl + F8
