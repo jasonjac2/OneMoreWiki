@@ -20,9 +20,15 @@ two or more lines compressed down to one line.
 This command also attempts to align indented and outdented blank lines with the surrounding
 content so that consecutive paragraphs can be collapsed below a shared heading.
 
+## Remove Ink
+Removes all ink drawings and annotations from the current page.
+
 ## Remove Paragraph Spacing
 Resets line spacing to zero between all paragraphs and headings
 > ![Favorites Menu](images/RemoveSpacing.png)
+
+## Remove Tags
+Removes all tags from the current page, except those that are associated with reminders.
 
 ## Show/Hide Page Date and Time Stamps
 Toggles the page date and time stamps under the title on the current page or all pages in
