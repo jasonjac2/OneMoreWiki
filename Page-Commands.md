@@ -13,6 +13,9 @@ Collapses all headings with indented content.
 ## Expand Outlining
 Expands all headings with indented content.
 
+## Fit Grid to Text (_note yet released_)
+Autu-adjusts the size of the background grid, either lines or squares, to the size of the most commonly used font on the page. There is an option to override the auto calculation and enter a custom value as well. Grids and outlines on the page are not linked in any way in OneNote so grid may not align perfectly with text but the lines should be consistent in relation to the text content. Note this works well for pages that are mostly text; complicated pages with tables and headings will throw off the alignments since grid cannot dynamically change throughout a page.
+
 ## Merge pages
 Merges two or more pages into a single page. If every selected page contains exactly one outline each then the content of the outlines is concatenated to the outline in the target page, resulting in a single outline. However, if at least one page has multiple outlines then all outlines are appended vertically on the target page to preserve formatting and relative positioning. 
 
