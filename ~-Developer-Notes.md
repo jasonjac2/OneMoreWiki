@@ -76,11 +76,13 @@ There is a PowerShell script named **build.ps1** in the solution folder that bui
 and the 64-bit installers. Prior to running this script, you must first configure your machine by
 running the Microsoft tool (here showing PowerShell syntax):
 
-    cd 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\VSI\DisableOutOfProcBuild';
+    cd 'C:\Program Files\Microsoft Visual Studio\2012\Enterprise\Common7\IDE\CommonExtensions\Microsoft\VSI\DisableOutOfProcBuild';
     .\DisableOutOfProcBuild.exe
 
 This is provided specifically to allow later versions of VS to build vdproj projects from the
 command line. It only needs to be run once on your machine.
+
+Note that if you're using a different edition then replace "Enterprise" with your edition, or if you still have VS2019 then change the root path to 'C:\Program Files (x86)\Microsoft Visual Studio\2019'
 
 ## A Note on Debugging OneMore
 
