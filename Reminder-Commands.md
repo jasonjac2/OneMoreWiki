@@ -23,7 +23,9 @@ Deletes the reminder associated with the current paragraph and optionally remove
 Generates a detailed report page of all active and inactive reminders.
 
 ### Import Tasks from Outlook
-Imports Outlook tasks in a list or tabular form. When imported as a table, the start, due, completed, and other properties are displayed. _Note that OneMore can only keep track of the status (clickable status flags) of tasks in the main Outlook Tasks folder. While OneMore can import tasks from other folders, OneNote does not keep track of their status._
+Imports Outlook tasks in a list or tabular form. When imported as a table, the start, due, completed, and other properties are displayed. _Note that OneMore can only keep track of the status (clickable status flags) of tasks in the main Outlook Tasks folder. While OneMore can import tasks from other folders, OneNote does not keep track of their status._ 
+
+The task detail table is accompanied by a title with a _refresh_ link. Click this link to update the task details from Outlook.
 
 ## Notes
 
