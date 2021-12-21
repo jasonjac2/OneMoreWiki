@@ -112,6 +112,7 @@ The installer will register OneMore as a OneNote add-in by writing to the Window
 
 ```HKEY_CLASSES_ROOT\AppID{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}
 HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}
+HKEY_CLASSES_ROOT\onemore\shell\open\command
 HKEY_CLASSES_ROOT\River.OneMoreAddIn
 HKEY_CLASSES_ROOT\River.OneMoreAddIn.1
 HKEY_CURRENT_USER\SOFTWARE\Classes\AppID{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}
@@ -119,95 +120,19 @@ HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\OneNote\AddIns\River.OneMoreAddIn
 HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\River.OneMoreAddIn.dll
 ```
 
-The changes look similar to the following .reg file. Note that you cannot use the regasm.exe tool to
-register the add-in as it does not write all of the entries necessary for OneNote to properly load it.
-
-```Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\AppID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}]
-"DllSurrogate"=""
-
-[HKEY_CLASSES_ROOT\River.OneMoreAddIn]
-@="River.OneMoreAddIn.AddIn"
-
-[HKEY_CLASSES_ROOT\River.OneMoreAddIn\CLSID]
-@="{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}"
-
-[HKEY_CLASSES_ROOT\River.OneMoreAddIn\CurVer]
-@="River.OneMoreAddIn.1"
-
-[HKEY_CLASSES_ROOT\River.OneMoreAddIn.1]
-@="Addin class"
-
-[HKEY_CLASSES_ROOT\River.OneMoreAddIn.1\CLSID]
-@="{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}"
-
-[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}]
-@="River.OneMoreAddIn.AddIn"
-"AppID"="{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}"
-
-[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\Implemented Categories]
-
-[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
-
-[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32]
-@="mscoree.dll"
-"ThreadingModel"="Both"
-"CodeBase"="C:\\Program Files (x86)\\River\\OneMoreAddIn\\River.OneMoreAddIn.dll"
-"Class"="River.OneMoreAddIn.AddIn"
-"RuntimeVersion"="v4.0.30319"
-"Assembly"="River.OneMoreAddIn, Version=4.12.0.0, Culture=neutral, PublicKeyToken=null"
-
-[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32\4.12.0.0]
-"Assembly"="River.OneMoreAddIn, Version=4.12.0.0, Culture=neutral, PublicKeyToken=null"
-"CodeBase"="C:\\Program Files (x86)\\River\\OneMoreAddIn\\River.OneMoreAddIn.dll"
-"RuntimeVersion"="v4.0.30319"
-"Class"="River.OneMoreAddIn.AddIn"
-
-[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\ProgID]
-@="River.OneMoreAddin"
-
-[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\Programmable]
-@=""
-
-[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\TypeLib]
-@="{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}"
-
-[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\VersionIndependentProgID]
-@="River.OneMoreAddIn"
-
-[HKEY_CURRENT_USER\SOFTWARE\Classes\AppID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}]
-"DllSurrogate"=""
-
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\OneNote\AddIns\River.OneMoreAddIn]
-"LoadBehavior"=dword:00000003
-"Description"="Extension for OneNote"
-"FriendlyName"="OneMoreAddIn"
-
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\River.OneMoreAddIn.dll]
-"Path"="C:\\Program Files (x86)\\River\\OneMoreAddIn\\River.OneMoreAddIn.dll"
-```
+A full example .reg file is included in the source repo in the file OneMore.reg
 
 ### Development Environment
 
-The OneMore installer deploys files under %ProgramFiles(x86)\River\OneMore and registers the
-addin in the Registry by pointing to that folder. But the VS project has its own local bin folder
-which makes quick development cumbersome if you need to continually copy DLLs to that deployment
-folder after every build.
+While developing OneMore, it is easier to run the addin out of the Visual Studio build
+paths rather than continually copying bits into the registered deployment folders.
 
-You can avoid that by manually altering the Registry setting to point to the project bin folder
-using something like this .reg file:
+To redirect the registry entries to your VS build paths, run the script setdevreg.ps1, for example:
 
-	Windows Registry Editor Version 5.00
-	[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32]
-	"CodeBase"="C:\\Github\\OneMore\\OneMore\\bin\\x86\\Debug\\River.OneMoreAddIn.dll"
+```C:\GitHub\OneMore> .\setdevreg.ps1
+```
 
-And for the protocol handler:
-
-	Windows Registry Editor Version 5.00
-	[HKEY_CLASSES_ROOT\onemore\shell\open\command]
-	@="\"C:\\Github\\OneMore\\OneMoreProtocolHandler\\bin\\Debug\\OneMoreProtocolHandler.exe\" %1 %2 %3"
-
+***
 ### The COM Interface Timeout
 
 The OneNote Application COM object times out if not used within a reasonable window (somewhere around
