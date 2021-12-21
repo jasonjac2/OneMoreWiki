@@ -163,36 +163,9 @@ apply any color your choose. Selfish OneNote. Selflish.
 2. Click File.. Options.. Advanced
 3. At bottom of page, enable the checkbox _Show add-in user interface errors_
 
-##### Other Registry Locations
+##### Other Interesting Registry Locations
 
 	HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\OneNote (Load Times)
 	HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\OneNote (LoadBehavior)
 	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\OneNote (LoadBehavior)
-
-_Primary Registry path for Regedit:_
-
-	Computer\HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32
-
-##### EnabledLogging.reg (doesn't actually work :-(
-
-	Windows Registry Editor Version 5.00
-
-	[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\OneNote\Options\Logging]
-	"EnableLogging"=dword:00000001
-	"EnableTextFileLogging"=dword:00000001
-	"ttidLogObjectModel"=dword:00000001
-	"ttidLogObjectModelAddins"=dword:00000001
-	"ttidLogIncludeTimeDateStamp"=dword:00000001
-	"ttidLogMerge"=dword:00000001
-	"ttidLogReplicationConcise"=dword:00000001
-	"ttidLogCellStorageClientRequests"=dword:00000000
-	"ttidLogNativeReplicator"=dword:00000000
-	"ttidLogNotebookDiff"=dword:00000000
-	"ttidLogObjectSpaceStoreCell"=dword:00000000
-	"ttidLogReplicationScheduler"=dword:00000000
-	"ttidLogServerFolderReplicator"=dword:00000000
-	"ttidLogSharePointAndWebDAV"=dword:00000000
-	"ttidLogEditorsTable"=dword:00000000
-	"ttidLogSkyDrive"=dword:00000000
-	"ttidLogMultiRoundTripSuspend"=dword:00000000
 
