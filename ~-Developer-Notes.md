@@ -49,38 +49,34 @@ Other Technical Articles
         onAction="ClearBackgroundCmd"/>
       ```   
 
-## Rebuilding for 32-Bit Machines
+## Compiling and Building Installer
 
-There is no technical different between the 32-bit build and 64-bit build of OneMore and its DLLs.
-But there are 32-bit and 64-bit installers for OneMore. On a Windows 64-bit machine, either installer
-will work with either 32-bit or 64-bit OneNote. But if you have a 32-bit machine, you need to use the 32-bit installer.
+There is no technical different between the 32-bit build and 64-bit builds of OneMore and its DLLs so
+OneMore is built as a 32-bit/x86 assembly; this can be used in both x86 and x64 versions of OneNote.
 
-The Setup project will build as a 32-bit installer by default. There are two options to build a 64-bit installer:
+The setup project is configured to generate a 64-bit Windows installer with the idea that there are
+very few, if any, 32-bit machines still in use out there. 
 
-### Option 1 - _Change Visual Studio Project Setting_
+However, if a 32-bit installer is needed, it can be built in one of two ways
 
-The Setup project is configured for a 32-Bit installation of OneNote. If you have a 64-bit version
-then you should change the TargetPlatform property in the Setup project. _Note there is no need to
-change the bitness of the OneMore project itself; leave it as AnyCPU._
+1. Change the TargetPlatform property of the Setup project from x64 to x86 and rebuild
 
-Select the Setup project from the Visual Studio Solution Explorer and change the TargetPlatform
-property x64 as shown here:
+   ![TargetPlatform](images/TargetPlatform.png)
 
-![TargetPlatform](images/TargetPlatform.png)
+2. Or, use the build.ps1 script
+   a. By default, this script will build both x86 and x64 installers
+   b. Or you can specify x86 or x64 on the command line and build just the desired version, e.g.
 
-Rebuild the Setup project and away you go!
+   C:\Github\OneMore> .\build.ps1 x86
 
-### Option 2 - _Build.ps1_
+Prior to running build.ps1, you must first configure your machine by running this Microsoft tool,
+provided specifically to allow later versions of VS to build vdproj projects from the command line.
+It only needs to be run once on your machine.
 
-There is a PowerShell script named **build.ps1** in the solution folder that builds both the 32-bit
-and the 64-bit installers. Prior to running this script, you must first configure your machine by
-running the Microsoft tool (here showing PowerShell syntax):
+PowerShell syntax:
 
     cd 'C:\Program Files\Microsoft Visual Studio\2012\Enterprise\Common7\IDE\CommonExtensions\Microsoft\VSI\DisableOutOfProcBuild';
     .\DisableOutOfProcBuild.exe
-
-This is provided specifically to allow later versions of VS to build vdproj projects from the
-command line. It only needs to be run once on your machine.
 
 Note that if you're using a different edition then replace "Enterprise" with your edition, or if you still have VS2019 then change the root path to 'C:\Program Files (x86)\Microsoft Visual Studio\2019'
 
