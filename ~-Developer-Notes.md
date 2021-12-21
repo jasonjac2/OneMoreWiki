@@ -120,7 +120,7 @@ HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\OneNote\AddIns\River.OneMoreAddIn
 HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\River.OneMoreAddIn.dll
 ```
 
-A full example .reg file is included in the source repo in the file OneMore.reg
+A full example .reg file is included in the source repo in the file _register-onemore.reg_
 
 ### Development Environment
 
