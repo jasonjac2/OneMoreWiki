@@ -166,8 +166,3 @@ apply any color your choose. Selfish OneNote. Selflish.
 > https://stackoverflow.com/questions/801406/c-create-a-lighter-darker-color-based-on-a-system-color  
 > https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.controlpaint.light?view=netcore-3.1
 
-## Enable Add-in UI Error Notifiaction (deprecated)
-
-1. Open OneNote
-2. Click File.. Options.. Advanced
-3. At bottom of page, enable the checkbox _Show add-in user interface errors_
