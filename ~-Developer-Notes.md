@@ -129,7 +129,16 @@ paths rather than continually copying bits into the registered deployment folder
 
 To redirect the registry entries to your VS build paths, run the script setdevreg.ps1, for example:
 
-```C:\GitHub\OneMore> .\setdevreg.ps1
+```
+C:\GitHub\OneMore> .\setdevreg.ps1
+```
+
+#### Other Interesting Registry Locations
+
+```
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\OneNote (Load Times)
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\OneNote (LoadBehavior)
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\OneNote (LoadBehavior)
 ```
 
 ***
@@ -162,10 +171,3 @@ apply any color your choose. Selfish OneNote. Selflish.
 1. Open OneNote
 2. Click File.. Options.. Advanced
 3. At bottom of page, enable the checkbox _Show add-in user interface errors_
-
-##### Other Interesting Registry Locations
-
-	HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\OneNote (Load Times)
-	HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\OneNote (LoadBehavior)
-	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\OneNote (LoadBehavior)
-
