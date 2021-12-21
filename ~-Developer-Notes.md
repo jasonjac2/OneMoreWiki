@@ -105,18 +105,19 @@ OneMore runs in a process named dllhost, of which there are many. To identify wh
 dllhost is the OneMore process, look in the OneMore log file. The process ID is stated in the
 first line of the log and is also the first number on each line in the log file.
 
+***
 ## COM Registration
 
-The installer will register OneMore as a OneNote add-in by writing to the Windows System Registry in this keys:
+The installer will register OneMore as a OneNote add-in by writing to the Windows System Registry in the following keys:
 
-```HKEY_CLASSES_ROOT\AppID{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}
-HKEY_CLASSES_ROOT\WOW6432Node\CLSID{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}
-HKEY_CLASSES_ROOT\River.OneMoreAddIn
-HKEY_CLASSES_ROOT\River.OneMoreAddIn.1
-HKEY_CURRENT_USER\SOFTWARE\Classes\AppID{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}
-HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\OneNote\AddIns\River.OneMoreAddIn
-HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\River.OneMoreAddIn.dll
-```
+* `HKEY_CLASSES_ROOT\AppID{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}`
+* `HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}'
+* `HKEY_CLASSES_ROOT\River.OneMoreAddIn`
+* `HKEY_CLASSES_ROOT\River.OneMoreAddIn.1`
+* `HKEY_CURRENT_USER\SOFTWARE\Classes\AppID{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}`
+* `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\OneNote\AddIns\River.OneMoreAddIn`
+* `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\River.OneMoreAddIn.dll`
+
 The changes look similar to the following .reg file. Note that you cannot use the regasm.exe tool to
 register the add-in as it does not write all of the entries necessary for OneNote to properly load it.
 
@@ -140,38 +141,38 @@ register the add-in as it does not write all of the entries necessary for OneNot
 [HKEY_CLASSES_ROOT\River.OneMoreAddIn.1\CLSID]
 @="{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}"
 
-[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}]
+[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}]
 @="River.OneMoreAddIn.AddIn"
 "AppID"="{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}"
 
-[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\Implemented Categories]
+[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\Implemented Categories]
 
-[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
 
-[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32]
+[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32]
 @="mscoree.dll"
 "ThreadingModel"="Both"
 "CodeBase"="C:\\Program Files (x86)\\River\\OneMoreAddIn\\River.OneMoreAddIn.dll"
-"RuntimeVersion"="v4.0.30319"
 "Class"="River.OneMoreAddIn.AddIn"
-"Assembly"="River.OneMoreAddIn, Version=3.10.4.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"Assembly"="River.OneMoreAddIn, Version=4.12.0.0, Culture=neutral, PublicKeyToken=null"
 
-[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32\3.10.4.0]
+[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\InprocServer32\4.12.0.0]
+"Assembly"="River.OneMoreAddIn, Version=4.12.0.0, Culture=neutral, PublicKeyToken=null"
 "CodeBase"="C:\\Program Files (x86)\\River\\OneMoreAddIn\\River.OneMoreAddIn.dll"
-"Assembly"="River.OneMoreAddIn, Version=3.10.4.0, Culture=neutral, PublicKeyToken=null"
 "RuntimeVersion"="v4.0.30319"
 "Class"="River.OneMoreAddIn.AddIn"
 
-[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\ProgID]
+[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\ProgID]
 @="River.OneMoreAddin"
 
-[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\Programmable]
+[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\Programmable]
 @=""
 
-[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\TypeLib]
+[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\TypeLib]
 @="{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}"
 
-[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\VersionIndependentProgID]
+[HKEY_CLASSES_ROOT\CLSID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}\VersionIndependentProgID]
 @="River.OneMoreAddIn"
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\AppID\{88AB88AB-CDFB-4C68-9C3A-F10B75A5BC61}]
