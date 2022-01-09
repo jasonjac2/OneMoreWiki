@@ -1,6 +1,24 @@
 ## Archive
 Accessible from the context menu for both sections and notebooks, creates a zip file of all pages in the section or notebook, including all images and file attachments on each page. Also fixes the hyperlinks between pages within the context of the archive so the archive can stand on its own as a working directory of HTML files with live hyperlinks.
 
+## Calendar
+The OneMore Calendar is a separate program accessible from the OneMore main menu. It displays a monthly calendar showing pages that were created and modified on each day.
+
+Features
+
+* Click the month/year title to jump to a specific year
+* Click the day number in the month view to jump to the detail view
+* Click a page link to open that page in OneNote
+* Right-click a page to display a thumbnail preview of the page
+* Include or exclude specific notebooks in Settings
+* Optionally display deleted pages
+
+Keyboard shorcuts
+
+* Page up (or Ctrl-Left) - show previous month
+* Page down (or Ctrl-Right) - show next month
+* Home - jump to current month
+
 ## Import
 Import Word (.docx), PowerPoint (.pptx), Markdown (.md), OneNote (.one), or XML (.xml) by either appending content to the current page or creating a new page. Additionally, for PowerPoint, each slide can be imported into its own page so you could use OneNote as a PowerPoint presenter by entering full screen mode and using Ctrl-PgDn to move to the next slide.
 
