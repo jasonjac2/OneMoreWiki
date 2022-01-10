@@ -15,9 +15,11 @@ Features
 
 Keyboard shorcuts
 
-* Page up (or Ctrl-Left) - show previous month
-* Page down (or Ctrl-Right) - show next month
+* Page up (or Ctrl+Left) - show previous month
+* Page down (or Ctrl+Right) - show next month
 * Home - jump to current month
+* Alt+Tab - switch between month view and detail view
+* F5 - refresh the current view
 
 ## Import
 Import Word (.docx), PowerPoint (.pptx), Markdown (.md), OneNote (.one), or XML (.xml) by either appending content to the current page or creating a new page. Additionally, for PowerPoint, each slide can be imported into its own page so you could use OneNote as a PowerPoint presenter by entering full screen mode and using Ctrl-PgDn to move to the next slide.
