@@ -55,7 +55,8 @@ There is no technical different between the 32-bit build and 64-bit builds of On
 OneMore is built as a 32-bit/x86 assembly; this can be used in both x86 and x64 versions of OneNote.
 
 The setup project is configured to generate a 64-bit Windows installer with the idea that there are
-very few, if any, 32-bit machines still in use out there. 
+very few, if any, 32-bit machines still in use out there. But this 64-bit installer is customized to
+support both 64-bit and 32-bit installs of OneNote. So one installer to rule them all!
 
 However, if a 32-bit installer is needed, it can be built in one of two ways
 
@@ -64,10 +65,10 @@ However, if a 32-bit installer is needed, it can be built in one of two ways
    ![TargetPlatform](images/TargetPlatform.png)
 
 2. Or, use the build.ps1 script
-   a. By default, this script will build both x86 and x64 installers
-   b. Or you can specify x86 or x64 on the command line and build just the desired version, e.g.
+   a. By default, this script will build x64 installers
+   b. You can optionally specify 86 or 64 on the command line and build just the desired version, e.g.
 
-   C:\Github\OneMore> .\build.ps1 x86
+   C:\Github\OneMore> .\build.ps1 86
 
 Prior to running build.ps1, you must first configure your machine by running this Microsoft tool,
 provided specifically to allow later versions of VS to build vdproj projects from the command line.
