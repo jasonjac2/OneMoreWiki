@@ -12,7 +12,7 @@ Software doesn't have defects. Programmers do. And I'm no exception. So what sho
 
 1. If OneNote is installed for _all users_ then OneMore must also be installed for _all users_.
 
-1. If you're running on a 64-bit machine then either the 64-bit or 32-bit installer will work. But if you're running on a 32-bit machine then you must use the 32-bit installer. This is an installer issue; OneMore is built identically for both.
+1. The OneMore installer is built for 64-bit machines (32-bit/x86 machines are rare these days!). The installer also supports both 64-bit and 32-bit installs of OneNote on a 64-bit machine. If, however, you have a 32-bit machine, you'll need to build an installer specifically for 32-bit machines. Instructions [are here](~-Developer-Notes#compiling-and-building-installer).
 
 1. If you see an error dialog that says something like "OneMore failed to connect to OneNote" then it's likely due to a bad OneNote configuration. Try to run the Office installer and choosing the Repair option. This will repair Office and OneNote and may clear up the connection issue.
 
