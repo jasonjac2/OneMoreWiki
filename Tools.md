@@ -4,6 +4,8 @@ Accessible from the context menu for both sections and notebooks, creates a zip 
 ## Calendar
 The OneMore Calendar is a separate program accessible from the OneMore main menu. It displays a monthly calendar showing pages that were created and modified on each day.
 
+![Calendar](images/Calendar.png)
+
 Features
 
 * Click the month/year title to jump to a specific year
