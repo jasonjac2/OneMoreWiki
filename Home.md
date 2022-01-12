@@ -11,6 +11,7 @@ OneMore is an add-in for Microsoft OneNote 2019 that adds powerful yet simple an
 
 ![Screenshot](images/Screenshot.png)
 
+### The new Calendar app
 ![Calendar](images/Calendar.png)
 
 ### Minimum Prerequisites
