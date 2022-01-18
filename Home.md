@@ -38,9 +38,11 @@ OneNote presents different context menus when you right-click on different parts
 
 * The default Text context menu [can be customized](Settings) to add a number of editing commands
 * Right-click a picture to add a caption, crop, or resize the image
-* Right-click a notebook to add or remove numbering to all notebooks
-* Right-click a page in the page navigation panel to export, split, or merge pages
-* Right-click the page navigation panel background to add or remove numbering to pages in the section
+* Right-click a notebook to add or remove numbering to all notebooks, sort sections in a notebook
+* Right-click the notebook panel background to sort all notebooks
+* Right-click a section to sort pages within a section
+* Right-click a page in the page navigation panel to export, split, or merge pages, or to sort child pages
+* Right-click the page navigation panel background to add or remove numbering to pages or sort pages in the section
 * Right-click a section or notebook to archive all pages in that context
 
 <a name="keys"></a>
