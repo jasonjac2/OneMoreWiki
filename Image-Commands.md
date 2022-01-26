@@ -28,3 +28,4 @@ disk for each image. Image quality can very quickly and easily degrade, so for b
 results: change the width and height, untick the _Preserve original size_ checkbox
 and leave the quality at 100%.
 
+> <img src="images/ResizeImageDialog.png" width="568" />
