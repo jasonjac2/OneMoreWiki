@@ -28,4 +28,7 @@ disk for each image. Image quality can very quickly and easily degrade, so for b
 results: change the width and height, untick the _Preserve original size_ checkbox
 and leave the quality at 100%.
 
+The opacity, brightness, contrast, and grayscale adjustments will also overwrite the storage
+model of the image, losing the original.
+
 > <img src="images/ResizeImageDialog.png" width="568" />
