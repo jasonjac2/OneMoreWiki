@@ -36,6 +36,9 @@ The single and double horizontal line snippets are simple text lines of hyphens 
 
 > ![Horizontal Line Options](images/LinesSheet.png)
 
+## Keyboard
+A subset of OneMore commands are assigned default keyboard bindings. This page allows you to customize or clear those binding to suite your workflow or avoid conflicts with other installed addins and tools.
+
 ## Rotating Highlighter Options
 The rotating highlighter uses an array of colors to highlight selected text. Each time you select text and use this command, it will highlight the selected text using the next color in the array. The highlighter options let you choose which color theme to use
 
