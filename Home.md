@@ -48,7 +48,9 @@ OneNote presents different context menus when you right-click on different parts
 <a name="keys"></a>
 ## Key Shortcut Bindings
 While all commands can be accessed from the OneMore ribbon group menus, some
-commands also have their own key bindings. See also OneNote's 
+commands also have their own key bindings. These default bindings can be customized in the Settings dialog.
+
+See also OneNote's 
 [built-in keyboard shortcuts here](https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-onenote-44b8b3f4-c274-4bcc-a089-e80fdcc87950)
 
 | Category    | Command                       | Key Binding |
