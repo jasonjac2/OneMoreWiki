@@ -14,7 +14,7 @@ Press Ctrl + A to select the entire image. Press Cltr + D to deselect the curren
 This dialog also includes a rotate feature that can rotate an image to any angle, beyond just
 the 90 degree increments built into OneNote.
 
-## Resize
+## Resize and Advanced Adjustments
 Resize images on the page. If one image is selected then you can resize by percentage,
 absolute size, or to a preset width with aspect ratio maintained. If more than one image
 is selected, or no images are selected, then you can resize them all to a preset width.
