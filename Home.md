@@ -58,6 +58,7 @@ See also OneNote's
 |             | Replay Last Command           | Alt + Shift + R
 | [Editing](../wiki/Edit-Commands) | No Spell Check | F4
 |             | Rotating Highlighter          | Ctrl + Shift + H
+|             | Paste as Text                 | Ctrl + Shift + V
 |             | Paste Rich Text               | Ctrl + Alt + V
 |             | To uppercase                  | Ctrl + Shift + Alt + U
 |             | To lowercase                  | Ctrl + Shift + U
