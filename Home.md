@@ -1,4 +1,4 @@
-OneMore is an add-in for Microsoft OneNote 2019 that adds powerful yet simple and effective features.
+OneMore is an add-in for Microsoft OneNote 2019/2021 that adds powerful yet simple and effective features.
 
 * Integrated with the OneNote ribbon, [context menus](#ctxmenus), and [keyboard shortcuts](#keys) for easy access
 * [Customize the Text context menu](Settings) to add OneMore commands or a a custom search engine
