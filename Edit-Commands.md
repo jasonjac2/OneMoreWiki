@@ -2,7 +2,9 @@
 Applies colorized syntax highlighting to selected source code. Supported languages include: 
 
 - C#
+- C++
 - CSS
+- Go
 - HTML
 - Java
 - JavaScript/JSON
@@ -10,6 +12,7 @@ Applies colorized syntax highlighting to selected source code. Supported languag
 - Python
 - Typescript
 - VB
+- Wolfram
 - XML
 - YAML
 
