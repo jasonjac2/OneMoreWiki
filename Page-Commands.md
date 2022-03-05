@@ -1,11 +1,15 @@
-## Arrange Containers
-Rearranges the containers on a page either vertically or in columns and rows where columns are equally sized within a given page with. Containers are ordered purely based on the order in which they appear on the OneNote page. OneMore doesn't try to sort them in any intelligent way.
+## Add Caption to Attachments
+Adds a caption below each selected attachment on the page showing the full name of the attachment.
+Useful when OneNote abbreviates the name because the name is very long.
 
 ## Add Icon to Page Title
-Chose from a selection of icons from the Segoe UI Emoji font to add to the page title;
+Choose from a selection of icons from the Segoe UI Emoji font to add to the page title;
 OneNote automatically displays that icon in the page navigator as well.
 
 > ![Title Icon Dialog](images/TItleIconsDialog.png)
+
+## Arrange Containers
+Rearranges the containers on a page either vertically or in columns and rows where columns are equally sized within a given page with. Containers are ordered purely based on the order in which they appear on the OneNote page. OneMore doesn't try to sort them in any intelligent way.
 
 ## Collapse Outlining
 Collapses all headings with indented content.
