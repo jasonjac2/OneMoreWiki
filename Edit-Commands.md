@@ -56,6 +56,9 @@ Inverts the selection on the current page, de-selecting all selected content and
 ## Join Paragraph
 Joins multiple selected consecutive lines into a single paragraph, eliminating soft-breaks.
 
+## Paste as Plain Texxt (Ctrl + Shift + V)
+Pastes the contents of the clipboard as plain text.
+
 ## Paste Rich Text (Ctrl + Alt + V)
 Pastes rich text from the clipboard, preserving formatting and colors.
 
