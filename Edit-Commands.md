@@ -59,7 +59,7 @@ Joins multiple selected consecutive lines into a single paragraph, eliminating s
 ## Paste Rich Text (Ctrl + Alt + V)
 Pastes rich text from the clipboard, preserving formatting and colors.
 
-## Rotating Highlighter
+## Rotating Highlighter (Ctrl + Shift + H)
 Uses a rotating array of colors to highlight selected text. Each time you select text and use this command, it will highlight the selected text using the next color in the array. Choose the color theme from the Settings dialog.
 > ![Rotating Highlighter](images/Rotating.png)
 
