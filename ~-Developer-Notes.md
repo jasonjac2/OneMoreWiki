@@ -76,10 +76,10 @@ It only needs to be run once on your machine.
 
 PowerShell syntax:
 
-    cd 'C:\Program Files\Microsoft Visual Studio\2012\Enterprise\Common7\IDE\CommonExtensions\Microsoft\VSI\DisableOutOfProcBuild';
+    cd 'C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\VSI\DisableOutOfProcBuild';
     .\DisableOutOfProcBuild.exe
 
-Note that if you're using a different edition then replace "Enterprise" with your edition, or if you still have VS2019 then change the root path to 'C:\Program Files (x86)\Microsoft Visual Studio\2019'
+Note that if you're using a different edition then replace "Enterprise" with your edition, or if you still have VS2019 then change the root path to 'C:\Program Files (x86)\Microsoft Visual Studio\2022'
 
 ## A Note on Debugging OneMore
 
