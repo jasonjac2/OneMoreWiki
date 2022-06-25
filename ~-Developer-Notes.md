@@ -75,7 +75,7 @@ from the command line. It only needs to be run once on your machine (or after a 
 
 From an administrative PowerShell prompt:
 
-    `.\build.ps1 -prep`
+    .\build.ps1 -prep
 
 ## A Note on Debugging OneMore
 
