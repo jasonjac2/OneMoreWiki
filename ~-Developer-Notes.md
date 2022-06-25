@@ -70,16 +70,12 @@ However, if a 32-bit installer is needed, it can be built in one of two ways
 
    C:\Github\OneMore> .\build.ps1 86
 
-Prior to running build.ps1, you must first configure your machine by running this Microsoft tool,
-provided specifically to allow later versions of VS to build vdproj projects from the command line.
-It only needs to be run once on your machine.
+Prior to running build.ps1, you must first configure your machine to enable VS to build vdproj projects
+from the command line. It only needs to be run once on your machine (or after a reinstall or upgrade of VS)
 
-PowerShell syntax:
+From an administrative PowerShell prompt:
 
-    cd 'C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\VSI\DisableOutOfProcBuild';
-    .\DisableOutOfProcBuild.exe
-
-Note that if you're using a different edition then replace "Enterprise" with your edition, or if you still have VS2019 then change the root path to 'C:\Program Files (x86)\Microsoft Visual Studio\2022'
+    `.\build.ps1 -prep`
 
 ## A Note on Debugging OneMore
 
