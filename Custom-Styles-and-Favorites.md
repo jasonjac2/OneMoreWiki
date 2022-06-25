@@ -13,6 +13,12 @@ Ctrl+Alt+Shift + 1, Ctrl+Alt+Shift + 2, etc., through Ctrl+Alt+Shift + 9
 | -------------- | ------------- |
 | ![Styles](images/CustomStyles.png) | ![Styles Dialog](images/CustomStylesDialog.png) |
 
+NOTE - The built-in OneNote styles are unique entities explicitly managed by OneNote. In contrast,
+the custom OneMore styles are merely style attributes applied to content. So when a custom style
+is created that's stylistically equivalent to another style (built-in or custom) this makes it
+impossible for OneMore to differentiate between the two. This can adversely affect the Apply
+Styles command, the Table of Contents command, or any commands that look for custom styles.
+
 ## Office Black Theme and Custom Page Background
 
 By default, OneNote lets you select from a light, pastel pallet for page backgrounds but it
