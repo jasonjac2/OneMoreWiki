@@ -14,6 +14,10 @@ Rearranges the containers on a page either vertically or in columns and rows whe
 ## Collapse Outlining
 Collapses all headings with indented content.
 
+## Copy Link to Page/Paragraph
+These commands will copy a hyperlink to the current page or paragraph. Pasting
+this link will insert a hyperlink as a formatted breadcrumb.
+
 ## Expand Outlining
 Expands all headings with indented content.
 
