@@ -30,6 +30,10 @@ Resets line spacing to zero between all paragraphs and headings
 ## Remove Tags
 Removes all tags from the current page, except those that are associated with reminders.
 
+## Reset Container Auto-Size
+After manually setting the width of containers on a page, this command will reset the widths
+of all containers on the page to auto-size based on the content.
+
 ## Show/Hide Page Date and Time Stamps
 Toggles the page date and time stamps under the title on the current page or all pages in
 the current section
