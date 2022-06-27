@@ -43,6 +43,7 @@ The _Indent calenar_ option will indent the calendar beneath the header, allowin
 ## Sortable Date (Ctrl + Shift + D)
 Inserts the current date in the form yyyy-mm-dd. One common use case is to prefix the title of a new page
 with the current date so it is easy to sort and visually identify pages according to the entered date.
+Alternatively, you can insert both the date and time by pressing Ctrl + Shift + Alt + D.
 
 ## Text Box
 Insert a single-cell table. To surround content already on the page, select the content before invoking
